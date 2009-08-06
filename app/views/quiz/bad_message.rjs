@@ -1,0 +1,2 @@
+#page.replace_html 'notice_bad', flash[:notice_bad]
+page[:notice_bad].visual_effect :highlight

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+apfel:
+  id: 1
+  article: der
+  german: Apfel
+  english: apple
+
+ball:
+  id: 2
+  article: der
+  german: Ball
+  english: ball
+  
+college:
+  id: 3
+  article: das
+  german: College
+  english: college
