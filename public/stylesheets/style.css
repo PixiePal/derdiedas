@@ -9,6 +9,19 @@ body {
 	padding: 0px;
 }
 
+#header {
+	text-align: right;
+	text-decoration: underline;
+}
+
+#footer {
+	text-align: center;
+	font-size: 60%;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
 #logo {
 	background-image: url(../images/derdiedas.png);
 	width: 300px;

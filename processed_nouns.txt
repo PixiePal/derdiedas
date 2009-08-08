@@ -267,7 +267,7 @@ die --- Krankenschwester --- nurse
 die --- Nuss --- nut
 die --- Eiche --- oak
 der --- Oktober --- October
-das --- Oel --- oil
+das --- Öl --- oil
 die --- Zwiebel --- onion
 die --- Orange --- orange
 der --- Mantel --- overcoat
@@ -407,7 +407,7 @@ der --- Koch --- cook
 der --- Cousin --- cousin
 die --- Cousine --- cousin
 der --- Arzt --- doctor
-die --- Aerztin --- doctor
+die --- Ärztin --- doctor
 der --- Lift --- elevator
 die --- Stelle --- palce
 der --- Wecker --- alarm clock
@@ -597,7 +597,7 @@ das --- Gegenteil --- contrary
 der --- Gegensatz --- contrast
 die --- Kontrolle --- control
 das --- Gespräch --- conversation
-die --- Ueberzeugung --- conviction
+die --- Überzeugung --- conviction
 die --- Gesellschaft --- corporation
 die --- Ratsversammlung --- council
 die --- Grafschaft --- county
@@ -641,7 +641,6 @@ die --- Liegenschaft --- estate
 das --- Ereignis --- event
 der --- Beweis --- evidence
 der --- Geschäftsführer --- executive
-die --- Uebung --- exercise
 das --- Dasein --- existence
 die --- Erfahrung --- experience
 das --- Experiment --- experiment
@@ -753,7 +752,7 @@ der --- Teil --- portion
 die --- Lage --- position
 die --- Macht --- power
 die --- Kraft --- power
-die --- Uebung --- practice
+die --- Übung --- practice
 der --- Präsident --- president
 der --- Druck --- pressure
 das --- Problem --- problem
