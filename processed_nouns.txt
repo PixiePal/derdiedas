@@ -224,7 +224,7 @@ das --- Land --- land
 das --- Bein --- leg
 die --- Zitrone --- lemon
 der --- Brief --- letter
-die --- Leben --- life
+das --- Leben --- life
 die --- Lippe --- lip
 das --- Mittagessen --- lunch
 die --- Maschine --- machine

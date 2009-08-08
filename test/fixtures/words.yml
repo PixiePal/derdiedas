@@ -17,3 +17,9 @@ college:
   article: das
   german: College
   english: college
+  
+donner:
+  id: 4
+  article: der
+  german: Donner
+  english: thunder

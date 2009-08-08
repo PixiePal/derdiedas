@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  word_id: 1
+  user_id: 1
+
+two:
+  word_id: 1
+  user_id: 2
+
+three:
+  word_id: 3
+  user_id: 1

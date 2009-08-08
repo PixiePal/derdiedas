@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+pixiepal:
+  id: 1
+  login: PixiePal 
+  password: PixiePassword
+
+globetrotter:
+  id: 2
+  login: Globetrotter
+  password: TrotterPassword
+  
+newbie:
+  id: 3
+  login: Newbie
+  password: NewbiePassword

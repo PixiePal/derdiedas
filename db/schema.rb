@@ -9,7 +9,28 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081120205617) do
+ActiveRecord::Schema.define(:version => 20090808222410) do
+
+  create_table "correct_answers", :force => true do |t|
+    t.integer  "word_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "mistakes", :force => true do |t|
+    t.integer  "word_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "login"
+    t.string   "password"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "words", :force => true do |t|
     t.string   "article"
