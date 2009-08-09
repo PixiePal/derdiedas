@@ -556,7 +556,7 @@ das --- Jahrhundert --- century
 die --- Kette --- chain
 der --- Vordsitzender --- chairman
 die --- Chance --- chance
-die --- Kapitel --- chapter
+das --- Kapitel --- chapter
 der --- Charakter --- character
 der --- Leiter --- chief
 die --- Kindheit --- childhood
