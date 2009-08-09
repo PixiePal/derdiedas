@@ -1015,7 +1015,7 @@
 170:
   id: 170
   article: das
-  german: Stpckwerk
+  german: Stockwerk
   english: floor
 
 171:
@@ -1356,7 +1356,7 @@
 
 227:
   id: 227
-  article: die
+  article: das
   german: Leben
   english: life
 
@@ -1615,7 +1615,7 @@
 270:
   id: 270
   article: das
-  german: Oel
+  german: Öl
   english: oil
 
 271:
@@ -2455,7 +2455,7 @@
 410:
   id: 410
   article: die
-  german: Aerztin
+  german: Ärztin
   english: doctor
 
 411:
@@ -3348,7 +3348,7 @@
 
 559:
   id: 559
-  article: die
+  article: das
   german: Kapitel
   english: chapter
 
@@ -3595,7 +3595,7 @@
 600:
   id: 600
   article: die
-  german: Ueberzeugung
+  german: Überzeugung
   english: conviction
 
 601:
@@ -3858,1704 +3858,1698 @@
 
 644:
   id: 644
-  article: die
-  german: Uebung
-  english: exercise
-
-645:
-  id: 645
   article: das
   german: Dasein
   english: existence
 
-646:
-  id: 646
+645:
+  id: 645
   article: die
   german: Erfahrung
   english: experience
 
-647:
-  id: 647
+646:
+  id: 646
   article: das
   german: Experiment
   english: experiment
 
-648:
-  id: 648
+647:
+  id: 647
   article: der
   german: Ausdruck
   english: expression
 
-649:
-  id: 649
+648:
+  id: 648
   article: die
   german: Ausdehnung
   english: extent
 
-650:
-  id: 650
+649:
+  id: 649
   article: die
   german: Tatsache
   english: fact
 
-651:
-  id: 651
+650:
+  id: 650
   article: der
   german: Faktor
   english: factor
 
-652:
-  id: 652
+651:
+  id: 651
   article: das
   german: Versagen
   english: failure
 
-653:
-  id: 653
+652:
+  id: 652
   article: das
   german: Märchen
   english: fairy tale
 
-654:
-  id: 654
+653:
+  id: 653
   article: der
   german: Glauben
   english: faith
 
-655:
-  id: 655
+654:
+  id: 654
   article: die
   german: Mode
   english: fashion
 
-656:
-  id: 656
+655:
+  id: 655
   article: der
   german: Gefallen
   english: favor
 
-657:
-  id: 657
+656:
+  id: 656
   article: das
   german: Gefühl
   english: feeling
 
-658:
-  id: 658
+657:
+  id: 657
   article: das
   german: Feld
   english: field
 
-659:
-  id: 659
+658:
+  id: 658
   article: die
   german: Feige
   english: fig
 
-660:
-  id: 660
+659:
+  id: 659
   article: der
   german: Kampf
   english: fight
 
-661:
-  id: 661
+660:
+  id: 660
   article: die
   german: Akte
   english: file
 
-662:
-  id: 662
+661:
+  id: 661
   article: der
   german: Film
   english: film
 
-663:
-  id: 663
+662:
+  id: 662
   article: der
   german: Fuss
   english: foot
 
-664:
-  id: 664
+663:
+  id: 663
   article: die
   german: Kraft
   english: force
 
-665:
-  id: 665
+664:
+  id: 664
   article: der
   german: Rahmen
   english: frame
 
-666:
-  id: 666
+665:
+  id: 665
   article: die
   german: Vorderseite
   english: front
 
-667:
-  id: 667
+666:
+  id: 666
   article: der
   german: Gewinn
   english: gain
 
-668:
-  id: 668
+667:
+  id: 667
   article: das
   german: Spiel
   english: game
 
-669:
-  id: 669
+668:
+  id: 668
   article: das
   german: Gas
   english: gas
 
-670:
-  id: 670
+669:
+  id: 669
   article: das
   german: Ziel
   english: goal
 
-671:
-  id: 671
+670:
+  id: 670
   article: die
   german: Regierung
   english: government
 
-672:
-  id: 672
+671:
+  id: 671
   article: die
   german: Gruppe
   english: group
 
-673:
-  id: 673
+672:
+  id: 672
   article: der
   german: Gast
   english: guest
 
-674:
-  id: 674
+673:
+  id: 673
   article: die
   german: Ernte
   english: harvest
 
-675:
-  id: 675
+674:
+  id: 674
   article: die
   german: Hitze
   english: heat
 
-676:
-  id: 676
+675:
+  id: 675
   article: die
   german: Hölle
   english: hell
 
-677:
-  id: 677
+676:
+  id: 676
   article: das
   german: Huhn
   english: hen
 
-678:
-  id: 678
+677:
+  id: 677
   article: der
   german: Held
   english: hero
 
-679:
-  id: 679
+678:
+  id: 678
   article: der
   german: Hügel
   english: hill
 
-680:
-  id: 680
+679:
+  id: 679
   article: die
   german: Geschichte
   english: history
 
-681:
-  id: 681
+680:
+  id: 680
   article: die
   german: Ehre
   english: honor
 
-682:
-  id: 682
+681:
+  id: 681
   article: die
   german: Hoffnung
   english: hope
 
-683:
-  id: 683
+682:
+  id: 682
   article: die
   german: Idee
   english: idea
 
-684:
-  id: 684
+683:
+  id: 683
   article: das
   german: Bild
   english: image
+
+684:
+  id: 684
+  article: der
+  german: Einfluss
+  english: impact
 
 685:
   id: 685
   article: der
   german: Einfluss
-  english: impact
+  english: influence
 
 686:
   id: 686
-  article: der
-  german: Einfluss
-  english: influence
-
-687:
-  id: 687
   article: die
   german: Innere
   english: interior
 
-688:
-  id: 688
+687:
+  id: 687
   article: das
   german: Problem
   english: issue
 
-689:
-  id: 689
+688:
+  id: 688
   article: der
   german: Job
   english: job
 
-690:
-  id: 690
+689:
+  id: 689
   article: der
   german: Richter
   english: judge
 
-691:
-  id: 691
+690:
+  id: 690
   article: die
   german: Gerechtigkeit
   english: justice
 
-692:
-  id: 692
+691:
+  id: 691
   article: das
   german: Wissen
   english: knowledge
 
-693:
-  id: 693
+692:
+  id: 692
   article: die
   german: Arbeit
   english: labor
 
-694:
-  id: 694
+693:
+  id: 693
   article: die
   german: Dame
   english: lady
 
-695:
-  id: 695
+694:
+  id: 694
   article: das
   german: Recht
   english: law
 
-696:
-  id: 696
+695:
+  id: 695
   article: die
   german: Länge
   english: length
 
-697:
-  id: 697
+696:
+  id: 696
   article: die
   german: Bibliothek
   english: library
 
-698:
-  id: 698
+697:
+  id: 697
   article: die
   german: Linie
   english: line
 
-699:
-  id: 699
+698:
+  id: 698
   article: die
   german: Liste
   english: list
 
-700:
-  id: 700
+699:
+  id: 699
   article: die
   german: Literatur
   english: literature
 
-701:
-  id: 701
+700:
+  id: 700
   article: der
   german: Standort
   english: location
 
-702:
-  id: 702
+701:
+  id: 701
   article: der
   german: Verlust
   english: loss
 
-703:
-  id: 703
+702:
+  id: 702
   article: der
   german: Haufen
   english: lot
 
-704:
-  id: 704
+703:
+  id: 703
   article: die
   german: Mehrheit
   english: majority
 
-705:
-  id: 705
+704:
+  id: 704
   article: der
   german: Markt
   english: market
 
-706:
-  id: 706
+705:
+  id: 705
   article: das
   german: Material
   english: material
 
-707:
-  id: 707
+706:
+  id: 706
   article: der
   german: Gegenstand
   english: matter
 
-708:
-  id: 708
+707:
+  id: 707
   article: das
   german: Maximum
   english: maximum
 
-709:
-  id: 709
+708:
+  id: 708
   article: die
   german: Bedeutung
   english: meaning
 
-710:
-  id: 710
+709:
+  id: 709
   article: das
   german: Mittel
   english: means
 
-711:
-  id: 711
+710:
+  id: 710
   article: das
   german: Mass
   english: measure
 
-712:
-  id: 712
+711:
+  id: 711
   article: das
   german: Mitglied
   english: member
 
-713:
-  id: 713
+712:
+  id: 712
   article: die
   german: Botschaft
   english: message
 
-714:
-  id: 714
+713:
+  id: 713
   article: die
   german: Methode
   english: method
 
-715:
-  id: 715
+714:
+  id: 714
   article: die
   german: Meile
   english: mile
 
-716:
-  id: 716
+715:
+  id: 715
   article: die
   german: Million
   english: million
 
-717:
-  id: 717
+716:
+  id: 716
   article: der
   german: Sinn
   english: mind
 
-718:
-  id: 718
+717:
+  id: 717
   article: der
   german: Geist
   english: mind
 
-719:
-  id: 719
+718:
+  id: 718
   article: das
   german: Minimum
   english: minimum
 
-720:
-  id: 720
+719:
+  id: 719
   article: der
   german: Minister
   english: minister
 
-721:
-  id: 721
+720:
+  id: 720
   article: der
   german: Augenblick
   english: moment
 
-722:
-  id: 722
+721:
+  id: 721
   article: die
   german: Bewegung
   english: motion
 
-723:
-  id: 723
+722:
+  id: 722
   article: der
   german: Motor
   english: motor
 
-724:
-  id: 724
+723:
+  id: 723
   article: die
   german: Bewegung
   english: movement
 
-725:
-  id: 725
+724:
+  id: 724
   article: der
   german: Mord
   english: murder
 
-726:
-  id: 726
+725:
+  id: 725
   article: die
   german: Musik
   english: music
 
-727:
-  id: 727
+726:
+  id: 726
   article: die
   german: Nachbarschaft
   english: neighborhood
 
-728:
-  id: 728
+727:
+  id: 727
   article: die
   german: Notiz
   english: note
 
-729:
-  id: 729
+728:
+  id: 728
   article: der
   german: Roman
   english: novel
 
-730:
-  id: 730
+729:
+  id: 729
   article: die
   german: Nuss
   english: nut
 
-731:
-  id: 731
+730:
+  id: 730
   article: die
   german: Gelegenheit
   english: occasion
 
-732:
-  id: 732
+731:
+  id: 731
   article: die
   german: Meinung
   english: opinion
 
-733:
-  id: 733
+732:
+  id: 732
   article: die
   german: Gelegenheit
   english: opportunity
 
-734:
-  id: 734
+733:
+  id: 733
   article: das
   german: Orchester
   english: orchestra
 
-735:
-  id: 735
+734:
+  id: 734
   article: die
   german: Organisation
   english: organization
 
-736:
-  id: 736
+735:
+  id: 735
   article: der
   german: Schmerz
   english: pain
 
-737:
-  id: 737
+736:
+  id: 736
   article: das
   german: Gemälde
   english: painting
 
-738:
-  id: 738
+737:
+  id: 737
   article: das
   german: Paar
   english: pair
 
-739:
-  id: 739
+738:
+  id: 738
   article: der
   german: Park
   english: park
 
-740:
-  id: 740
+739:
+  id: 739
   article: das
   german: Muster
   english: pattern
 
-741:
-  id: 741
+740:
+  id: 740
   article: die
   german: Zahlung
   english: payment
 
-742:
-  id: 742
+741:
+  id: 741
   article: der
   german: Frieden
   english: peace
 
-743:
-  id: 743
+742:
+  id: 742
   article: die
   german: Leistung
   english: performance
 
-744:
-  id: 744
+743:
+  id: 743
   article: die
   german: Vorstellung
   english: performance
 
-745:
-  id: 745
+744:
+  id: 744
   article: der
   german: Plan
   english: plan
 
-746:
-  id: 746
+745:
+  id: 745
   article: die
   german: Pflanze
   english: plant
 
-747:
-  id: 747
+746:
+  id: 746
   article: das
   german: Vergnügen
   english: pleasure
 
-748:
-  id: 748
+747:
+  id: 747
   article: der
   german: Punkt
   english: point
 
-749:
-  id: 749
+748:
+  id: 748
   article: die
   german: Polizei
   english: police
 
-750:
-  id: 750
+749:
+  id: 749
   article: das
   german: Schwimmbecken
   english: pool
 
-751:
-  id: 751
+750:
+  id: 750
   article: die
   german: Bevölkerung
   english: population
 
-752:
-  id: 752
+751:
+  id: 751
   article: der
   german: Teil
   english: portion
 
-753:
-  id: 753
+752:
+  id: 752
   article: die
   german: Lage
   english: position
 
+753:
+  id: 753
+  article: die
+  german: Macht
+  english: power
+
 754:
   id: 754
   article: die
-  german: Macht
+  german: Kraft
   english: power
 
 755:
   id: 755
   article: die
-  german: Kraft
-  english: power
+  german: Übung
+  english: practice
 
 756:
   id: 756
-  article: die
-  german: Uebung
-  english: practice
-
-757:
-  id: 757
   article: der
   german: Präsident
   english: president
 
-758:
-  id: 758
+757:
+  id: 757
   article: der
   german: Druck
   english: pressure
 
-759:
-  id: 759
+758:
+  id: 758
   article: das
   german: Problem
   english: problem
 
-760:
-  id: 760
+759:
+  id: 759
   article: das
   german: Produkt
   english: product
 
-761:
-  id: 761
+760:
+  id: 760
   article: das
   german: Programm
   english: program
 
-762:
-  id: 762
+761:
+  id: 761
   article: der
   german: Fortschritt
   english: progress
 
-763:
-  id: 763
+762:
+  id: 762
   article: das
   german: Eigentum
   english: property
 
-764:
-  id: 764
+763:
+  id: 763
   article: der
   german: Schutz
   english: protection
 
-765:
-  id: 765
+764:
+  id: 764
   article: der
   german: Zweck
   english: purpose
 
-766:
-  id: 766
+765:
+  id: 765
   article: die
   german: Qualität
   english: quality
 
-767:
-  id: 767
+766:
+  id: 766
   article: die
   german: Frage
   english: question
 
-768:
-  id: 768
+767:
+  id: 767
   article: die
   german: Rasse
   english: race
 
-769:
-  id: 769
+768:
+  id: 768
   article: die
   german: Eisenbahn
   english: railroad
 
-770:
-  id: 770
+769:
+  id: 769
   article: der
   german: Bereich
   english: range
 
-771:
-  id: 771
+770:
+  id: 770
   article: der
   german: Kurs
   english: rate
 
-772:
-  id: 772
+771:
+  id: 771
   article: der
   german: Preis
   english: price
 
-773:
-  id: 773
+772:
+  id: 772
   article: die
   german: Wirklichkeit
   english: reality
 
-774:
-  id: 774
+773:
+  id: 773
   article: die
   german: Hinterseite
   english: rear
 
-775:
-  id: 775
+774:
+  id: 774
   article: die
   german: Schallplatte
   english: record
 
-776:
-  id: 776
+775:
+  id: 775
   article: der
   german: Hinblick
   english: regard
 
-777:
-  id: 777
+776:
+  id: 776
   article: das
   german: Verhältnis
   english: relation
 
-778:
-  id: 778
+777:
+  id: 777
   article: die
   german: Erleichterung
   english: relief
 
-779:
-  id: 779
+778:
+  id: 778
   article: die
   german: Religion
   english: religion
 
-780:
-  id: 780
+779:
+  id: 779
   article: das
   german: Risiko
   english: risk
 
-781:
-  id: 781
+780:
+  id: 780
   article: der
   german: Fels
   english: rock
 
-782:
-  id: 782
+781:
+  id: 781
   article: die
   german: Rolle
   english: role
 
-783:
-  id: 783
+782:
+  id: 782
   article: die
   german: Regel
   english: rule
 
-784:
-  id: 784
+783:
+  id: 783
   article: die
   german: Probe
   english: sample
 
-785:
-  id: 785
+784:
+  id: 784
   article: das
   german: Muster
   english: sample
 
-786:
-  id: 786
+785:
+  id: 785
   article: die
   german: Jahreszeit
   english: season
 
-787:
-  id: 787
+786:
+  id: 786
   article: der
   german: Sitz
   english: seat
 
-788:
-  id: 788
+787:
+  id: 787
   article: das
   german: Geheimnis
   english: secret
 
-789:
-  id: 789
+788:
+  id: 788
   article: die
   german: Sekretärin
   english: secretary
 
-790:
-  id: 790
+789:
+  id: 789
   article: der
   german: Sinn
   english: sense
 
-791:
-  id: 791
+790:
+  id: 790
   article: das
   german: Gefühl
   english: sense
 
-792:
-  id: 792
+791:
+  id: 791
   article: der
   german: Dienst
   english: service
 
-793:
-  id: 793
+792:
+  id: 792
   article: das
   german: Geschlecht
   english: sex
 
-794:
-  id: 794
+793:
+  id: 793
   article: die
   german: Form
   english: shape
 
-795:
-  id: 795
+794:
+  id: 794
   article: das
   german: Obdach
   english: shelter
 
-796:
-  id: 796
+795:
+  id: 795
   article: der
   german: Laden
   english: shop
 
-797:
-  id: 797
+796:
+  id: 796
   article: das
   german: Ufer
   english: shore
 
-798:
-  id: 798
+797:
+  id: 797
   article: der
   german: Strand
   english: shore
 
-799:
-  id: 799
+798:
+  id: 798
   article: die
   german: Seite
   english: side
 
+799:
+  id: 799
+  article: das
+  german: Schild
+  english: sign
+
 800:
   id: 800
   article: das
-  german: Schild
+  german: Zeichen
   english: sign
 
 801:
   id: 801
   article: das
-  german: Zeichen
-  english: sign
+  german: Signal
+  english: signal
 
 802:
   id: 802
-  article: das
-  german: Signal
-  english: signal
+  article: die
+  german: Ruhe
+  english: silence
 
 803:
   id: 803
   article: die
-  german: Ruhe
+  german: Stille
   english: silence
 
 804:
   id: 804
   article: die
-  german: Stille
-  english: silence
+  german: Lage
+  english: situation
 
 805:
   id: 805
   article: die
-  german: Lage
-  english: situation
-
-806:
-  id: 806
-  article: die
   german: Grösse
   english: size
 
-807:
-  id: 807
+806:
+  id: 806
   article: der
   german: Schmied
   english: smith
 
-808:
-  id: 808
+807:
+  id: 807
   article: die
   german: Gesellschaft
   english: society
 
-809:
-  id: 809
+808:
+  id: 808
   article: der
   german: Soldat
   english: soldier
 
-810:
-  id: 810
+809:
+  id: 809
   article: die
   german: Lösung
   english: solution
 
-811:
-  id: 811
+810:
+  id: 810
   article: das
   german: Lied
   english: song
 
-812:
-  id: 812
+811:
+  id: 811
   article: der
   german: Klang
   english: sound
 
-813:
-  id: 813
+812:
+  id: 812
   article: die
   german: Quelle
   english: source
 
-814:
-  id: 814
+813:
+  id: 813
   article: der
   german: Raum
   english: space
 
-815:
-  id: 815
+814:
+  id: 814
   article: die
   german: Geschwindigkeit
   english: speed
 
-816:
-  id: 816
+815:
+  id: 815
   article: der
   german: Geist
   english: spirit
 
-817:
-  id: 817
+816:
+  id: 816
   article: das
   german: Personal
   english: staff
 
-818:
-  id: 818
+817:
+  id: 817
   article: die
   german: Bühne
   english: stage
 
-819:
-  id: 819
+818:
+  id: 818
   article: der
   german: Staat
   english: state
 
-820:
-  id: 820
+819:
+  id: 819
   article: der
   german: Schritt
   english: step
 
-821:
-  id: 821
+820:
+  id: 820
   article: der
   german: Tritt
   english: step
 
-822:
-  id: 822
+821:
+  id: 821
   article: die
   german: Aktie
   english: stock
 
-823:
-  id: 823
+822:
+  id: 822
   article: das
   german: Lager
   english: stock
 
-824:
-  id: 824
+823:
+  id: 823
   article: der
   german: Stein
   english: stone
 
-825:
-  id: 825
+824:
+  id: 824
   article: die
   german: Geschichte
   english: story
 
-826:
-  id: 826
+825:
+  id: 825
   article: der
   german: Strom
   english: stream
 
-827:
-  id: 827
+826:
+  id: 826
   article: der
   german: Fluss
   english: stream
 
-828:
-  id: 828
+827:
+  id: 827
   article: die
   german: Kraft
   english: strength
 
-829:
-  id: 829
+828:
+  id: 828
   article: die
   german: Stärke
   english: strength
 
-830:
-  id: 830
+829:
+  id: 829
   article: der
   german: Erfolg
   english: success
 
-831:
-  id: 831
+830:
+  id: 830
   article: die
   german: Oberfläche
   english: surface
 
-832:
-  id: 832
+831:
+  id: 831
   article: die
   german: Überraschung
   english: surprise
 
-833:
-  id: 833
+832:
+  id: 832
   article: die
   german: Technik
   english: technique
 
-834:
-  id: 834
+833:
+  id: 833
   article: das
   german: Fernsehen
   english: television
 
-835:
-  id: 835
+834:
+  id: 834
   article: die
   german: Temperatur
   english: temperature
 
-836:
-  id: 836
+835:
+  id: 835
   article: die
   german: Spannung
   english: tension
 
-837:
-  id: 837
+836:
+  id: 836
   article: das
   german: Semester
   english: term
 
-838:
-  id: 838
+837:
+  id: 837
   article: der
   german: Begriff
   english: term
 
-839:
-  id: 839
+838:
+  id: 838
   article: das
   german: Theater
   english: theater
 
-840:
-  id: 840
+839:
+  id: 839
   article: der
   german: Titel
   english: title
 
+840:
+  id: 840
+  article: der
+  german: Ton
+  english: tone
+
 841:
   id: 841
   article: der
-  german: Ton
+  german: Klang
   english: tone
 
 842:
   id: 842
   article: der
-  german: Klang
-  english: tone
+  german: Handel
+  english: trade
 
 843:
   id: 843
   article: der
-  german: Handel
-  english: trade
-
-844:
-  id: 844
-  article: der
   german: Verkehr
   english: traffic
 
-845:
-  id: 845
+844:
+  id: 844
   article: die
   german: Behandlung
   english: treatment
 
-846:
-  id: 846
+845:
+  id: 845
   article: das
   german: Vertrauen
   english: trust
 
-847:
-  id: 847
+846:
+  id: 846
   article: der
   german: Trust
   english: trust
 
-848:
-  id: 848
+847:
+  id: 847
   article: die
   german: Wahrheit
   english: truth
 
-849:
-  id: 849
+848:
+  id: 848
   article: die
   german: Kurve
   english: turn
 
-850:
-  id: 850
+849:
+  id: 849
   article: die
   german: Reihe
   english: turn
 
-851:
-  id: 851
+850:
+  id: 850
   article: das
   german: Weltall
   english: universe
 
-852:
-  id: 852
+851:
+  id: 851
   article: die
   german: Universität
   english: university
 
-853:
-  id: 853
+852:
+  id: 852
   article: das
   german: Tal
   english: valley
 
-854:
-  id: 854
+853:
+  id: 853
   article: der
   german: Wert
   english: value
 
-855:
-  id: 855
+854:
+  id: 854
   article: der
   german: Sieg
   english: victory
 
+855:
+  id: 855
+  article: die
+  german: Sicht
+  english: view
+
 856:
   id: 856
   article: die
-  german: Sicht
+  german: Ansicht
   english: view
 
 857:
   id: 857
   article: die
-  german: Ansicht
-  english: view
+  german: Stimme
+  english: voice
 
 858:
   id: 858
   article: die
-  german: Stimme
-  english: voice
+  german: Lautstärke
+  english: volume
 
 859:
   id: 859
-  article: die
-  german: Lautstärke
+  article: der
+  german: Band
   english: volume
 
 860:
   id: 860
   article: der
-  german: Band
-  english: volume
+  german: Lohn
+  english: wage
 
 861:
   id: 861
   article: der
-  german: Lohn
-  english: wage
+  german: Lastwagen
+  english: wagon
 
 862:
   id: 862
   article: der
-  german: Lastwagen
+  german: Kombi
   english: wagon
 
 863:
   id: 863
-  article: der
-  german: Kombi
-  english: wagon
-
-864:
-  id: 864
   article: die
   german: Mauer
   english: wall
 
-865:
-  id: 865
+864:
+  id: 864
   article: der
   german: Krieg
   english: war
 
-866:
-  id: 866
+865:
+  id: 865
   article: das
   german: Gewicht
   english: weight
 
-867:
-  id: 867
+866:
+  id: 866
   article: die
   german: Fürsorge
   english: welfare
 
-868:
-  id: 868
+867:
+  id: 867
   article: der
   german: Hof
   english: yard
 
-869:
-  id: 869
+868:
+  id: 868
   article: der
   german: Yard
   english: yard
 
-870:
-  id: 870
+869:
+  id: 869
   article: die
   german: Jugend
   english: youth
 
-871:
-  id: 871
+870:
+  id: 870
   article: die
   german: Fähigkeit
   english: ability
 
-872:
-  id: 872
+871:
+  id: 871
   article: das
   german: Konto
   english: account
 
-873:
-  id: 873
+872:
+  id: 872
   article: die
   german: Handlung
   english: action
 
-874:
-  id: 874
+873:
+  id: 873
   article: die
   german: Tätigkeit
   english: activity
 
-875:
-  id: 875
+874:
+  id: 874
   article: der
   german: Zusatz
   english: addition
 
-876:
-  id: 876
+875:
+  id: 875
   article: die
   german: Erweiterung
   english: addition
 
-877:
-  id: 877
+876:
+  id: 876
   article: das
   german: Gebiet
   english: area
 
-878:
-  id: 878
+877:
+  id: 877
   article: der
   german: Beweis
   english: argument
 
-879:
-  id: 879
+878:
+  id: 878
   article: die
   german: Zuweisung
   english: assignment
 
-880:
-  id: 880
+879:
+  id: 879
   article: der
   german: Beistand
   english: assistance
 
-881:
-  id: 881
+880:
+  id: 880
   article: die
   german: Achtung
   english: attention
 
-882:
-  id: 882
+881:
+  id: 881
   article: die
   german: Stück
   english: bit
 
-883:
-  id: 883
+882:
+  id: 882
   article: das
   german: Merkmal
   english: characteristics
 
-884:
-  id: 884
+883:
+  id: 883
   article: der
   german: Direktor
   english: director
 
-885:
-  id: 885
+884:
+  id: 884
   article: der
   german: Regisseur
   english: director
 
-886:
-  id: 886
+885:
+  id: 885
   article: die
   german: Besprechung
   english: discussion
 
+886:
+  id: 886
+  article: die
+  german: Division
+  english: division
+
 887:
   id: 887
   article: die
-  german: Division
+  german: Abteilung
   english: division
 
 888:
   id: 888
   article: die
-  german: Abteilung
-  english: division
+  german: Erziehung
+  english: education
 
 889:
   id: 889
   article: die
-  german: Erziehung
+  german: Bildung
   english: education
 
 890:
   id: 890
   article: die
-  german: Bildung
-  english: education
+  german: Möglichkeit
+  english: facility
 
 891:
   id: 891
   article: die
-  german: Möglichkeit
-  english: facility
+  german: Eigenschaft
+  english: feature
 
 892:
   id: 892
-  article: die
-  german: Eigenschaft
-  english: feature
+  article: der
+  german: Gefährte
+  english: fellow
 
 893:
   id: 893
   article: der
-  german: Gefährte
+  german: Kerl
   english: fellow
 
 894:
   id: 894
   article: der
-  german: Kerl
-  english: fellow
-
-895:
-  id: 895
-  article: der
   german: Zoll
   english: custom
 
-896:
-  id: 896
+895:
+  id: 895
   article: das
   german: Inhaltsverzeichnis
   english: index
 
-897:
-  id: 897
+896:
+  id: 896
   article: der
   german: Zeigefinger
   english: index finger
 
-898:
-  id: 898
+897:
+  id: 897
   article: der
   german: Anführer
   english: leader
 
-899:
-  id: 899
+898:
+  id: 898
   article: das
   german: Schloss (Türe)
   english: lock
 
-900:
-  id: 900
+899:
+  id: 899
   article: der
   german: Beamter
   english: officer
 
-901:
-  id: 901
+900:
+  id: 900
   article: der
   german: Punkt (Zeichen)
   english: period
 
-902:
-  id: 902
+901:
+  id: 901
   article: die
   german: Gegend
   english: region
 
-903:
-  id: 903
+902:
+  id: 902
   article: die
   german: Bemerkung
   english: remark
 
-904:
-  id: 904
+903:
+  id: 903
   article: die
   german: Forschung
   english: research
 
-905:
-  id: 905
+904:
+  id: 904
   article: das
   german: Ergebnis
   english: result
 
-906:
-  id: 906
+905:
+  id: 905
   article: die
   german: Szene
   english: scene
 
-907:
-  id: 907
+906:
+  id: 906
   article: der
   german: Schuss
   english: shot
 
-908:
-  id: 908
+907:
+  id: 907
   article: der
   german: Boden (Erde)
   english: soil
 
-909:
-  id: 909
+908:
+  id: 908
   article: der
   german: Arbeiter
   english: worker
 
-910:
-  id: 910
+909:
+  id: 909
   article: der
   german: Unfall
   english: accident
 
-911:
-  id: 911
+910:
+  id: 910
   article: die
   german: Nahrung
+  english: food
+
+911:
+  id: 911
+  article: das
+  german: Essen
   english: food
 
 912:
   id: 912
   article: das
-  german: Essen
-  english: food
-
-913:
-  id: 913
-  article: das
   german: Hotel
   english: hotel
 
-914:
-  id: 914
+913:
+  id: 913
   article: die
   german: Art
   english: manner
 
-915:
-  id: 915
+914:
+  id: 914
   article: das
   german: Recht
   english: right
 
-916:
-  id: 916
+915:
+  id: 915
   article: die
   german: Sache
   english: thing
 
-917:
-  id: 917
+916:
+  id: 916
   article: das
   german: Ding
   english: thing
 
-918:
-  id: 918
+917:
+  id: 917
   article: der
   german: Mittag
   english: noon
 
-919:
-  id: 919
+918:
+  id: 918
   article: die
   german: Hinsicht
   english: aspect
 
-920:
-  id: 920
+919:
+  id: 919
   article: der
   german: Anblick
   english: aspect
 
-921:
-  id: 921
+920:
+  id: 920
   article: die
   german: Halle
   english: hall
 
-922:
-  id: 922
+921:
+  id: 921
   article: der
   german: Saal
   english: hall
 
-923:
-  id: 923
+922:
+  id: 922
   article: die
   german: Messe
   english: exhibition
 
-924:
-  id: 924
+923:
+  id: 923
   article: die
   german: Masse
   english: mass
 
-925:
-  id: 925
+924:
+  id: 924
   article: die
   german: Stelle
   english: spot
 
-926:
-  id: 926
+925:
+  id: 925
   article: der
   german: Ort
   english: spot
 
-927:
-  id: 927
+926:
+  id: 926
   article: die
   german: Waffe
   english: weapon
