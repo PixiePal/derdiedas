@@ -96,7 +96,6 @@ die --- Brust --- chest
 das --- Kind --- child
 das --- Kinn --- chin
 die --- Schokolade --- chocolate
-die --- Kirche --- church
 die --- Zigarette --- cigarette
 die --- Stadt --- city
 der --- Kunde --- client
@@ -562,7 +561,7 @@ der --- Leiter --- chief
 die --- Kindheit --- childhood
 das --- Porzellan --- china
 die --- Wahl --- choice
-die --- Kiche --- church
+die --- Kirche --- church
 der --- Kreis --- circle
 der --- Bürger --- citizen
 der --- Anspruch --- claim
