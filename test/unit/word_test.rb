@@ -14,4 +14,11 @@ class WordTest < ActiveSupport::TestCase
     assert_equal [], words(:college).correct_answers
     assert_equal [correct_answers(:two)], words(:donner).correct_answers
   end
+  
+  def test_count_cache
+    # to reload the static variable to make sure 
+    # the count_cache is actual
+    load 'word.rb' 
+    assert_equal 4, Word.count_cache
+  end
 end
