@@ -1,0 +1,16 @@
+<div id="feedback">
+    <%unless flash[:notice_good].blank? %>
+    <div id="notice_good">
+        <p>
+            <%= flash[:notice_good] %>
+        </p>
+    </div>
+    <%end %>
+    <%unless flash[:notice_bad].blank? %>
+    <div id="notice_bad">
+        <p>
+            <%= flash[:notice_bad] %>
+        </p>
+    </div>
+    <%end %>
+</div>

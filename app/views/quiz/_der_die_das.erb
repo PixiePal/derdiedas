@@ -1,0 +1,19 @@
+<div id="der_die_das">
+    <ul>
+        <li>
+            <%= link_to_remote 'der',
+            :url => {:action => :guess},
+            :with => "'word_id=#{@main_word.id}&article_guess=der'" %>
+        </li>
+        <li>
+            <%= link_to_remote 'die',
+            :url => {:action => :guess},
+            :with => "'word_id=#{@main_word.id}&article_guess=die'" %>
+        </li>
+        <li>
+            <%= link_to_remote 'das',
+            :url => {:action => :guess},
+            :with => "'word_id=#{@main_word.id}&article_guess=das'" %>
+        </li>
+    </ul>
+</div>

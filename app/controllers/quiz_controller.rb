@@ -1,45 +1,38 @@
 class QuizController < ApplicationController
+  
+  
   def index
-    
-    generate_new = (session[:last_passed].nil?) || (session[:last_passed])
-    
-    if generate_new
-      offset = rand(Word.count)
-      @word = Word.find(:first, :offset => offset)
-      session[:word_id] = @word.id
-    else
-      @word = Word.find(session[:word_id])
-    end
-    
-    if session[:wrong_answers].nil?
-      session[:wrong_answers] = {:der => [], :die => [], :das => []}
-    end
-    
-    @wrong_answers = session[:wrong_answers]
-    
+    @main_word = get_new_word
+    session[:is_retry] = false
   end
   
   def guess
-    word = Word.find(session[:word_id])
-    if (word.article == params[:article])
-      
-      flash[:notice_good] = word.article + " " + word.german
-      
-      if (!session[:last_passed].nil?) && (session[:last_passed] == false)
-        session[:wrong_answers][word.article.to_sym] << Word.find(session[:word_id])
-      end
-      
-      session[:last_passed] = true
-      redirect_to(:action => "index")
-      
+    #TODO possible obtimization? - work directly with german word and article 
+    # as parameters, thus avoiding going to the database for the word
+    @main_word = Word.find_by_id params[:word_id]
+    @missed_word_to_dispaly = nil
+    @is_new_word = false
+    
+    if (@main_word.article == params[:article_guess])
+        if session[:is_retry]
+          @missed_word_to_dispaly = @main_word
+        end
+        
+        flash[:notice_good] = @main_word.article + ' '+ @main_word.german
+        flash[:notice_bad] = nil
+        
+        @main_word = get_new_word
+        @is_new_word = true
+        session[:is_retry] = false
     else
-      
-      flash[:notice_bad] = "Try again!"
-      session[:last_passed] = false
-      
-      redirect_to(:action => "index")
-      #render_template_part(:template => "/quiz/bad_message")
-    end
+        session[:is_retry] = true
+        flash[:notice_bad] = 'Try again!'
+        flash[:notice_good] = nil
+    end  
   end
   
+private
+  def get_new_word
+    Word.find(:first, :offset=>(rand Word.count_cache))
+  end
 end

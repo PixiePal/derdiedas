@@ -1,0 +1,11 @@
+page[:feedback].reload
+page[:feedback].visual_effect :highlight, :with => "startcolor:'#aaaaaa'"
+unless @missed_word_to_dispaly.nil?
+  #TODO is there a solution with a partial?
+  page.insert_html :bottom, "wrong_#{@missed_word_to_dispaly.article}", 
+    '<div class=\"one_word\"><p>' + @missed_word_to_dispaly.german + '</p></div>'
+end
+if @is_new_word
+  page[:main_word].reload
+  page[:der_die_das].reload
+end
