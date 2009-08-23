@@ -11,9 +11,6 @@ require 'tasks/rails'
 
 begin
   require 'metric_fu'
-rescue LoadError
-end
-
 MetricFu::Configuration.run do |config|
         #define which metrics you want to use
         config.metrics  = [:churn, :saikuro, :stats, :flog, :flay, :reek, :roodi, :rcov]
@@ -44,3 +41,6 @@ end
 MetricFu::Configuration.run do |config|
   config.rcov[:rcov_opts] << "-Itest"
 end 
+  
+rescue LoadError
+end
