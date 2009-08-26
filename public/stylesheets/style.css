@@ -103,7 +103,7 @@ body {
 #der_die_das ul li a {
 	text-decoration: none;
 	color: #003bb2;
-	padding-right: 10px;
+	margin-right: 10px;
 }
 
 #wrong_answers {
