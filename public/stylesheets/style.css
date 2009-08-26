@@ -9,6 +9,14 @@ body {
 	padding: 0px;
 }
 
+a:active {
+	outline: none;
+}
+
+a:focus {
+	-moz-outline-style: none;
+}
+
 #header {
 	text-align: right;
 	text-decoration: underline;
@@ -104,6 +112,10 @@ body {
 	text-decoration: none;
 	color: #003bb2;
 	margin-right: 10px;
+}
+
+#der_die_das ul li a:visited {
+	border: none;
 }
 
 #wrong_answers {
