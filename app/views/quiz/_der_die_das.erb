@@ -1,17 +1,17 @@
 <div id="der_die_das">
     <ul>
         <li id="der_button">
-            <%= link_to_remote(image_tag("/images/der-button.png", :size => "66x25", :border => 0),
+            <%= link_to_remote(image_tag("/images/der-button.png", :size => "65x25", :border => 0),
             :url => {:action => :guess},
             :with => "'word_id=#{@main_word.id}&article_guess=der'") %>
         </li>
         <li id="die_button">
-            <%= link_to_remote(image_tag("/images/die-button.png", :size => "66x25", :border => 0),
+            <%= link_to_remote(image_tag("/images/die-button.png", :size => "65x25", :border => 0),
             :url => {:action => :guess},
             :with => "'word_id=#{@main_word.id}&article_guess=die'") %>
         </li>
         <li id="das_button">
-            <%= link_to_remote(image_tag("/images/das-button.png", :size => "66x25", :border => 0),
+            <%= link_to_remote(image_tag("/images/das-button.png", :size => "65x25", :border => 0),
             :url => {:action => :guess},
             :with => "'word_id=#{@main_word.id}&article_guess=das'") %>
         </li>
