@@ -14,7 +14,7 @@ a:active {
 }
 
 a:focus {
-	-moz-outline-style: none;
+ 	outline-style:none;
 }
 
 #header {
