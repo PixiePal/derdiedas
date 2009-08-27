@@ -108,7 +108,7 @@ a:focus {
 	display: inline;
 }
 
-#der_die_das ul li a {
+#der_die_das ul li {
 	text-decoration: none;
 	color: #003bb2;
 	margin-right: 10px;

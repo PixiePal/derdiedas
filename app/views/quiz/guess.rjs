@@ -1,5 +1,10 @@
 page[:feedback].reload
 page[:feedback].visual_effect :highlight, :with => "startcolor:'#aaaaaa'"
+['der', 'die', 'das'].each do |article|
+  unless session["display_button_#{article}".to_sym]
+    page["#{article}_button".to_sym].replace_html :partial => 'wrong_article', :object => article
+  end
+end
 unless @missed_word_to_dispaly.nil?
   #TODO is there a solution with a partial?
   page.insert_html :bottom, "wrong_#{@missed_word_to_dispaly.article}", 
