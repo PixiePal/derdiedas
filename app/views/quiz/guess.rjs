@@ -1,16 +1,33 @@
-page[:feedback].reload
-page[:feedback].visual_effect :highlight, :with => "startcolor:'#aaaaaa'"
-['der', 'die', 'das'].each do |article|
-  unless session["display_button_#{article}".to_sym]
-    page["#{article}_button".to_sym].replace_html :partial => 'wrong_article', :object => article
+%w{der die das}.each do |article|
+  unless session["button_state_#{article}".to_sym] == :button
+    page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :wrong}
+    page["#{article}_button"].add_class_name 'missed'
   end
 end
 unless @missed_word_to_dispaly.nil?
-  #TODO is there a solution with a partial?
+  #TODO change to partial
   page.insert_html :bottom, "wrong_#{@missed_word_to_dispaly.article}", 
     '<div class=\"one_word\"><p>' + @missed_word_to_dispaly.german + '</p></div>'
 end
 if @is_new_word
-  page[:main_word].reload
-  page[:der_die_das].reload
+    unless session[:good_button_for].nil?
+      # Word guessed. Display good sign and dummys for other article buttons 
+      %w{der die das}.each do |article|
+        if article == session[:good_button_for]
+          page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :good}
+        else
+          unless page["#{article}_button"].has_class_name :missed
+            page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :ghost}
+          end
+        end
+      end
+    end
+    #page[:der_button].fade
+    # replace good button
+    #page[:der_button].appear :queue => 'end'
+    page.delay(1) {
+      page[:der_die_das].reload
+      page[:main_word].reload
+      page[:main_word].visual_effect :highlight
+    }
 end

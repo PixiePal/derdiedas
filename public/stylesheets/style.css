@@ -52,45 +52,6 @@ a:focus {
 	width: 100%;
 }
 
-#feedback {
-	 height: 40px;
-	 margin-top: 20px;
-}
-
-#notice_good {
-	margin-left: 40%;
-	background-image: url(../images/good_small.png);
-	background-repeat: no-repeat;
-	height:inherit;
-	padding-left: 25px;
-	text-align: left;
-}
-
-#notice_bad {
-	margin-left: 40%;
-	background-image: url(../images/bad_small.png);
-	background-repeat: no-repeat;
-	height:inherit;
-	padding-left: 25px;
-	text-align: left;
-}
-
-#notice_good p, #notice_bad p {
-	font-size: 0.9em;
-	font-weight: 500;
-	padding-top: 0.3em;
-	padding-left: 1em;
-}
-
-#notice_bad p {
-	color: #D10001;
-}
-
-#notice_good p {
-	color: #339900;
-}
-
-
 #quiz_wrapper h1 {
 	padding: 0.5em 0em 0.5em 0em;
 }

@@ -4,9 +4,10 @@ class QuizController < ApplicationController
   def index
     @main_word = get_new_word
     session[:is_retry] = false
-    session[:display_button_der] = true
-    session[:display_button_die] = true
-    session[:display_button_das] = true
+    session[:button_state_der] = :button
+    session[:button_state_die] = :button
+    session[:button_state_das] = :button
+    session[:good_button_for] = nil
   end
   
   def guess
@@ -18,23 +19,23 @@ class QuizController < ApplicationController
     
     if (@main_word.article == params[:article_guess])
       # Word guesed -> switch to new word
+      session[:good_button_for] = @main_word.article
+      
       if session[:is_retry]
         @missed_word_to_dispaly = @main_word
       end
         
-      flash[:notice_good] = @main_word.article + ' '+ @main_word.german
-      flash[:notice_bad] = nil
-        
       @main_word = get_new_word
       @is_new_word = true
       session[:is_retry] = false
-      session[:display_button_der] = true
-      session[:display_button_die] = true
-      session[:display_button_das] = true
+      session[:button_state_der] = :button
+      session[:button_state_die] = :button
+      session[:button_state_das] = :button
     else
       # Wrong guess
       session[:is_retry] = true
-      session["display_button_#{params[:article_guess]}".to_sym] = false
+      session[:good_button_for] = nil
+      session["button_state_#{params[:article_guess]}".to_sym] = :wrong
     end  
   end
   
