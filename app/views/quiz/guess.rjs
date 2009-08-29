@@ -1,7 +1,6 @@
 %w{der die das}.each do |article|
   unless session["button_state_#{article}".to_sym] == :button
     page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :wrong}
-    page["#{article}_button"].add_class_name 'missed'
   end
 end
 unless @missed_word_to_dispaly.nil?
@@ -12,13 +11,23 @@ end
 if @is_new_word
     unless session[:good_button_for].nil?
       # Word guessed. Display good sign and dummys for other article buttons 
+      #TODO rewrite without loop
       %w{der die das}.each do |article|
         if article == session[:good_button_for]
-          page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :good}
+          page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :good}  
         else
-          unless page["#{article}_button"].has_class_name :missed
-            page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :ghost}
-          end
+          logger.debug "Check #{article}"
+          #debugger
+          page.select("##{article}_button a").each do |item|
+            item.replace "<img width=\"66\" height=\"41\" border=\"0\" src=\"/images/#{article}-button.png\" alt=\"der\"/>"
+          end 
+          #page << "if (results_a.size() != 0) { $(#{article}_button).replace_html 'kukac '}"
+          
+          
+          #unless page.select("li##{article}_button a").empty?
+          #  logger.debug "Replacing"
+          #  page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :ghost}
+          #end
         end
       end
     end
@@ -28,6 +37,6 @@ if @is_new_word
     page.delay(1) {
       page[:der_die_das].reload
       page[:main_word].reload
-      page[:main_word].visual_effect :highlight
+      #page[:main_word].visual_effect :highlight
     }
 end
