@@ -12,6 +12,12 @@
         <%= javascript_include_tag :defaults %>
     </head>
     <body>
+      <div id="header">Login</div>
+      <div id="logo"></div>
+      <div id="content">
+         <%= yield %>
+      </div>
+	  <div id="footer">Copyright &copy; 2009 derdiedas-perfekt.com</div>
 	  <div id="preloaded-images">
 	    <img src="/images/der-ghost.png" width="1" height="1" alt="" />
 		<img src="/images/die-ghost.png" width="1" height="1" alt="" />
@@ -22,13 +28,7 @@
 		<img src="/images/der-wrong.png" width="1" height="1" alt="" />
 		<img src="/images/die-wrong.png" width="1" height="1" alt="" />
 		<img src="/images/das-wrong.png" width="1" height="1" alt="" />
-	  </div>
-      <div id="header">Login</div>
-      <div id="logo"></div>
-      <div id="content">
-         <%= yield %>
-      </div>
-	  <div id="footer">Copyright &copy; 2009 derdiedas-perfekt.com</div>
+	  </div>  
 	  <script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -38,7 +38,6 @@
 			var pageTracker = _gat._getTracker("UA-152633-8");
 			pageTracker._trackPageview();
 		} catch(err) {}
-	</script>
-		
+	</script>	
     </body>
 </html>
