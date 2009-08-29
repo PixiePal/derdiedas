@@ -1,3 +1,3 @@
 <h1 id="main_word">
-    <p><%=@main_word.german%></p>
+    <p><%=@main_word.german%><%= link_to " ?", "http://de.wiktionary.org/wiki/"+@main_word.german, :popup => ['new_window', 'height=600,width=600'] %> </p>
 </h1>
