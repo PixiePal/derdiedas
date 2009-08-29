@@ -19,15 +19,8 @@ if @is_new_word
           logger.debug "Check #{article}"
           #debugger
           page.select("##{article}_button a").each do |item|
-            item.replace "<img width=\"66\" height=\"41\" border=\"0\" src=\"/images/#{article}-button.png\" alt=\"der\"/>"
-          end 
-          #page << "if (results_a.size() != 0) { $(#{article}_button).replace_html 'kukac '}"
-          
-          
-          #unless page.select("li##{article}_button a").empty?
-          #  logger.debug "Replacing"
-          #  page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :ghost}
-          #end
+            item.replace "<img width=\"66\" height=\"41\" border=\"0\" src=\"/images/#{article}-ghost.png\" alt=\"der\"/>"
+          end
         end
       end
     end
