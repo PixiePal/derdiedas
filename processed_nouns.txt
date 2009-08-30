@@ -1,925 +1,925 @@
-die --- Adresse --- address
-der --- Rat --- advice
-der --- Nachmittag --- afternoon
-das --- Alter --- age
-das --- Ziel --- aim
-die --- Luft --- air
-das --- Flugzeug --- airplane
-der --- Flughafen --- airport
-der --- Alkohol --- alcohol
-das --- Tier --- animal
-die --- Antwort --- answer
-die --- Ameise --- ant
-der --- Appetit --- appetite
-der --- Apfel --- apple
-die --- Aprikose --- apricot
-der --- April --- April
-der --- Arm --- arm
-der --- Sessel --- armchair
-die --- Armee --- army
-die --- Ankunft --- arrival
-die --- Kunst --- art
-der --- Versuch --- attempt
-der --- August --- August
-die --- Tante --- aunt
-das --- Auto --- automobile
-der --- Herbst --- autumn
-der --- Speck --- bacon
-die --- Tasche --- bag
-der --- Balkon --- balcony
-der --- Ball --- ball
-die --- Banane --- banana
-die --- Bank --- bank
-die --- Bar --- bar
-die --- Gerste --- barley
-der --- Keller --- basement
-der --- Korb --- basket
-das --- Bad --- bath
-das --- Badezimmer --- bathroom
-der --- Strand --- beach
-die --- Bohne --- bean
-der --- Bart --- beard
-das --- Bett --- bed
-das --- Schlafzimmer --- bedroom
-die --- Biene --- bee
-das --- Rindfleisch --- beef
-das --- Steak --- beefsteak
-das --- Bier --- beer
-der --- Anfang --- beginning
-die --- Glocke --- bell
-der --- Gurt --- belt
-die --- Wette --- bet
-das --- Fahrrad --- bicycle
-die --- Rechnung --- bill
-der --- Vogel --- bird
-der --- Geburtstag --- birthday
-das --- Biscuit --- biscuit
-die --- Decke --- blanket
-das --- Blut --- blood
-die --- Bluse --- blouse
-das --- Boot --- boat
-der --- Knochen --- bone
-das --- Buch --- book
-die --- Buchhandlung --- bookshop
-die --- Flasche --- bottle
-die --- Schale --- bowl
-die --- Schachtel --- box
-der --- Junge --- boy
-das --- Gehirn --- brain
-die --- Bremse --- brake
-das --- Brot --- bread
-die --- Brust --- breast
-der --- Besen --- broom
-der --- Bruder --- brother
-der --- Bus --- bus
-der --- Metzger --- butcher
-die --- Butter --- butter
-der --- Schmetterling --- butterfly
-der --- Knopf --- button
-der --- Kohl --- cabbage
-der --- Kuchen --- cake
-das --- Kalb --- calf
-die --- Kerze --- candle
-die --- Karte --- card
-der --- Teppich --- carpet
-die --- Kathedrale --- cathedral
-das --- Vieh --- cattle
-der --- Blumenkohl --- cauliflower
-der --- Grund --- cause
-der --- Keller --- cellar
-das --- Zentrum --- center
-das --- Jahrhundert --- century
-der --- Stuhl --- chair
-die --- Wange --- cheek
-die --- Kirsche --- cherry
-die --- Brust --- chest
-das --- Kind --- child
-das --- Kinn --- chin
-die --- Schokolade --- chocolate
-die --- Zigarette --- cigarette
-die --- Stadt --- city
-der --- Kunde --- client
-die --- Wolke --- cloud
-der --- Mantel --- coat
-der --- Kaffee --- coffee
-der --- Kragen --- collar
-die --- Farbe --- color
-der --- Kamm --- comb
-die --- Gesellschaft --- company
-der --- Kamarad --- comrade
-die --- Verbindung --- connection
-das --- Seil --- cord
-die --- Ecke --- corner
-das --- Land --- country
-das --- Paar --- couple
-die --- Kuh --- cow
-die --- Sahne --- cream
-das --- Verbrechen --- crime
-die --- Krone --- crown
-die --- Gurke --- cucumber
-die --- Tasse --- cup
-der --- Schrank --- cupboard
-der --- Vorhang --- curtain
-der --- Zoll --- customs
-die --- Gefahr --- danger
-das --- Datum --- date
-die --- Tochter --- daughter
-der --- Tag --- day
-der --- Grad --- degree
-die --- Anfrage --- demand
-der --- Zahnarzt --- dentist
-die --- Abfahrt --- departure
-das --- Dessert --- dessert
-das --- Abendessen --- dinner
-die --- Richtung --- direction
-die --- Krankheit --- disease
-die --- Distanz --- distance
-der --- Hund --- dog
-der --- Esel --- donkey
-die --- Schublade --- drawer
-der --- Traum --- dream
-das --- Kleid --- dress
-die --- Ente --- duck
-die --- Wohnung --- dwelling
-das --- Ohr --- ear
-die --- Erde --- earth
-das --- Ei --- egg
-der --- Ellbogen --- elbow
-der --- Elefant --- elephant
-das --- Ende --- end
-der --- Feind --- enemy
-der --- Motor --- engine
-der --- Eingang --- entrance
-der --- Briefumschlag --- envelope
-der --- Abend --- evening
-die --- Beispiel --- example
-der --- Wechsel --- exchange
-der --- Ausgang --- exit
-das --- Auge --- eye
-das --- Gesicht --- face
-die --- Fabrik --- factory
-die --- Familie --- family
-der --- Bauernhof --- farm
-der --- Vater --- father
-der --- Fehler --- fault
-die --- Angst --- fear
-der --- Februar --- February
-der --- Finger --- finger
-das --- Feuer --- fire
-das --- Stockwerk --- floor
-das --- Mehl --- flour
-die --- Blume --- flower
-der --- Wald --- forest
-die --- Gabel --- fork
-die --- Form --- form
-der --- Brunnen --- fountain
-der --- Fuchs --- fox
-der --- Freitag --- Friday
-die --- Zukunft --- future
-der --- Garten --- garden
-das --- Benzin --- gasoline
-das --- Glas --- glass
-die --- Brille --- glasses
-das --- Gold --- gold
-die --- Gans --- goose
-der --- Grossvater --- grandfather
-die --- Grossmutter --- grandmother
-das --- Gras --- grass
-der --- Boden --- ground
-das --- Gewehr --- gun
-der --- Schinken --- ham
-der --- Hammer --- hammer
-die --- Hand --- hand
-die --- Handtasche --- handbag
-das --- Taschentuch --- handkerchief
-der --- Hut --- hat
-der --- Kopf --- head
-die --- Gesundheit --- health
-das --- Herz --- heart
-die --- Landstrasse --- highway
-das --- Loch --- hole
-das --- Pferd --- horse
-das --- Spital --- hospital
-die --- Stunde --- hour
-das --- Haus --- house
-der --- Ehemann --- husband
-das --- Eis --- ice
-das --- Eisen --- iron
-die --- Insel --- island
-die --- Jacke --- jacket
-die --- Marmelade --- jam
-der --- Januar --- January
-der --- Saft --- juice
-der --- Juli --- July
-der --- Juni --- June
-die --- Art --- kind
-der --- Kuss --- kiss
-das --- Knie --- knee
-das --- Messer --- knife
-die --- Leiter --- ladder
-der --- See --- lake
-die --- Lampe --- lamp
-das --- Land --- land
-das --- Bein --- leg
-die --- Zitrone --- lemon
-der --- Brief --- letter
-das --- Leben --- life
-die --- Lippe --- lip
-das --- Mittagessen --- lunch
-die --- Maschine --- machine
-das --- Magazin --- magazine
-die --- Post --- mail
-die --- Landkarte --- map
-die --- Hochzeit --- marriage
-der --- Mai --- May
-die --- Wiese --- meadow
-die --- Mahlzeit --- meal
-das --- Fleisch --- meat
-das --- Metall --- metal
-die --- Milch --- milk
-die --- Minute --- minute
-der --- Spiegel --- mirror
-der --- Fehler --- mistake
-der --- Moment --- moment
-der --- Montag --- Monday
-das --- Geld --- money
-der --- Monat --- month
-der --- Mond --- moon
-der --- Morgen --- morning
-die --- Mutter --- mother
-der --- Berg --- mountain
-die --- Maus --- mouse
-der --- Mund --- mouth
-der --- Nagel --- nail
-der --- Name --- name
-die --- Serviette --- napkin
-die --- Natur --- nature
-der --- Hals --- neck
-die --- Nadel --- needle
-der --- Nachbar --- neighbor
-die --- Zeitung --- newspaper
-die --- Nacht --- night
-die --- Nase --- nose
-der --- November --- November
-die --- Zahl --- number
-die --- Krankenschwester --- nurse
-die --- Nuss --- nut
-die --- Eiche --- oak
-der --- Oktober --- October
-das --- Öl --- oil
-die --- Zwiebel --- onion
-die --- Orange --- orange
-der --- Mantel --- overcoat
-die --- Seite --- page
-das --- Papier --- paper
-die --- Party --- party
-der --- Pass --- passport
-die --- Vergangenheit --- past
-die --- Erbe --- pea
-die --- Birne --- pear
-der --- Kugelschreiber --- pen
-die --- Person --- person
-das --- Bild --- picture
-das --- Schwein --- pig
-der --- Teller --- plate
-das --- Schweinefleisch --- pork
-die --- Postkarte --- postcard
-der --- Topf --- pot
-die --- Kartoffel --- potato
-das --- Geschenk --- present
-der --- Preis --- price
-die --- Zwetschge --- prune
-das --- Radio --- radio
-der --- Regen --- rain
-der --- Grund --- reason
-das --- Restaurant --- restaurant
-der --- Reis --- rice
-das --- Dach --- roof
-das --- Zimmer --- room
-der --- Salat --- salad
-das --- Salz --- salt
-der --- Samstag --- Saturday
-die --- Wurst --- sausage
-die --- Schule --- school
-die --- Wissenschaft --- science
-die --- Schere --- scissors
-die --- Schraube --- screw
-das --- Meer --- sea
-der --- September --- September
-der --- Schatten --- shadow
-das --- Schiff --- ship
-das --- Hemd --- shirt
-die --- Schulter --- shoulder
-das --- Silber --- silver
-die --- Schwester --- sister
-die --- Haut --- skin
-der --- Rock --- skirt
-der --- Himmel --- sky
-die --- Schnecke --- snail
-die --- Schlange --- snake
-der --- Schnee --- snow
-die --- Seife --- soap
-der --- Sohn --- son
-die --- Suppe --- soup
-der --- Platz --- square
-die --- Treppe --- stairs
-die --- Briefmarke --- stamp
-der --- Stern --- star
-der --- Bahnhof --- station
-der --- Stahl --- steel
-der --- Magen --- stomach
-der --- Stein --- stone
-die --- Haltestelle --- stop
-der --- Laden --- store
-der --- Sturm --- storm
-der --- Ofen --- stove
-die --- Erdbeere --- strawberry
-der --- Zucker --- sugar
-der --- Anzug --- suit
-der --- Sommer --- summer
-die --- Sonne --- sun
-der --- Sonntag --- Sunday
-das --- Abendessen --- supper
-die --- Tisch --- table
-die --- Aufgabe --- task
-der --- Tee --- tea
-das --- Telefon --- telephone
-der --- Durst --- thirst
-der --- Gedanke --- thought
-der --- Faden --- thread
-der --- Hals --- throat
-der --- Daumen --- thumb
-der --- Donner --- thunder
-der --- Donnerstag --- Thursday
-die --- Fahrkarte --- ticket
-die --- Kravatte --- tie
-der --- Tiger --- tiger
-die --- Zeit --- time
-der --- Reifen --- tire
-die --- Zehe --- toe
-die --- Toilette --- toilet
-die --- Tomate --- tomato
-die --- Zange --- tongs
-die --- Zunge --- tongue
-der --- Zahn --- tooth
-der --- Turm --- tower
-die --- Stadt --- town
-der --- Zug --- train
-der --- Baum --- tree
-die --- Reise --- trip
-die --- Hose --- trousers
-der --- Lastwagen --- truck
-der --- Dienstag --- Tuesday
-der --- Schirm --- umbrella
-der --- Onkel --- uncle
-das --- Kalbfleisch --- veal
-das --- Dorf --- village
-der --- Kellner --- waiter
-das --- Wasser --- water
-der --- Weg --- way
-das --- Wetter --- weather
-der --- Mittwoch --- Wednesday
-die --- Woche --- week
-das --- Rad --- wheel
-die --- Ehefrau --- wife
-der --- Wind --- wind
-das --- Fenster --- window
-der --- Wein --- wine
-der --- Winter --- winter
-die --- Frau --- woman
-das --- Holz --- wood
-die --- Wolle --- wool
-das --- Wort --- word
-die --- Welt --- world
-das --- Jahr --- year
-der --- Schauspieler --- actor
-die --- Schauspielerin --- actress
-der --- Schriftsteller --- author
-der --- Durchschnitt --- average
-das --- Baby --- baby
-der --- Wagen --- car
-das --- Auto --- car
-die --- Karrotte --- carrot
-der --- Kassierer --- cashier
-der --- Kleider --- clothes
-der --- Koch --- cook
-der --- Cousin --- cousin
-die --- Cousine --- cousin
-der --- Arzt --- doctor
-die --- Ärztin --- doctor
-der --- Lift --- elevator
-die --- Stelle --- palce
-der --- Wecker --- alarm clock
-der --- Knöchel --- ankle
-der --- Künstler --- artist
-der --- Säugling --- baby
-der --- Rücken --- back
-das --- Gepäck --- baggage
-der --- Bäcker --- baker
-die --- Bäckerei --- bakery
-die --- Banknote --- bank note
-der --- Bär --- bear
-die --- Klingel --- bell (door)
-das --- Getränk --- beverage
-der --- Körper --- body
-das --- Frühstück --- breakfast
-die --- Brücke --- bridge
-die --- Bürste --- brush
-das --- Gebäude --- building
-das --- Geschäft --- business
-der --- Fall --- case (instance)
-der --- Käse --- cheese
-das --- Hühnchen --- chicken
-die --- Uhr --- clock (tower)
-die --- Armbanduhr --- watch (clock)
-die --- Köchin --- cook
-die --- Wüste --- desert
-das --- Wörterbuch --- dictionary
-das --- Esszimmer --- dining room
-die --- Türe --- door
-die --- Fliege --- fly (insect)
-die --- Möbel --- furniture
-das --- Mädchen --- girl
-die --- Lust --- inclination (Lust)
-der --- Schlüssel --- key
-der --- König --- king
-die --- Küche --- kitchen
-die --- Liebe --- love (noun)
-das --- Glück --- luck
-der --- Mann --- man (human)
-der --- Mensch --- man
-der --- März --- March
-das --- Gedächtnis --- memory
-der --- Lärm --- noise
-das --- Büro --- office
-das --- Stück --- piece
-das --- Postbüro --- post office
-die --- Königin --- queen
-der --- Kühlschrank --- refrigerator
-die --- Landstrasse --- road (country)
-die --- Sünde --- sin
-der --- Löffel --- spoon
-der --- Frühling --- spring
-der --- Geschmack --- taste (noun)
-die --- Träne --- tear (eye)
-die --- Zahnbürste --- toothbrush
-der --- Staubsauger --- vacuum cleaner
-das --- Gemüse --- vegetable
-die --- Uhr --- watch (noun)
-die --- Arbeit --- work (noun)
-das --- Café --- café
-der --- Freund --- friend
-die --- Freundin --- girlfriend
-die --- Nachrichten --- news
-die --- Schuhe --- shoes
-die --- Studentin --- student
-der --- Lehrer --- teacher
-die --- Lehrerin --- teacher
-die --- Rübe --- beet
-die --- Katze --- cat
-der --- Wechsel --- change
-die --- Weihnacht --- christmas
-der --- Papa --- daddy
-der --- Dezember --- December
-der --- Christmonat --- December
-der --- Osten --- east
-der --- Westen --- west
-die --- Wohnung --- flat
-das --- Wohnhaus --- home
-der --- Gott --- god
-die --- Hilfe --- help (noun)
-das --- Eis --- ice
-das --- Interesse --- interest
-die --- Aufmerksamkeit --- interest
-die --- Sprache --- language
-das --- Licht --- light (lamp)
-das --- Mittagessen --- lunch
-die --- Mitternacht --- midnight
-der --- Norden --- north
-der --- Ofen --- oven
-das --- Teil --- part (of whole)
-der --- Großteil --- major part
-der --- Vorschlag --- proposal
-der --- Fluss --- river
-der --- Süden --- south
-die --- Strasse --- street (city)
-der --- Student --- student
-die --- Schwierigkeit --- trouble
-die --- U-Bahn --- underground
-der --- Fahrstuhl --- elevator
-der --- Wunsch --- wish
-der --- Ort --- place (spot)
-die --- Verwaltung --- administration
-der --- Vorschuss --- advance
-der --- Vorteil --- advantage
-die --- Werbung --- advertising
-die --- Vereinbarung --- agreement
-die --- Hilfe --- aid
-der --- Betrag --- amount
-der --- Winkel --- angle
-die --- Wohnung --- apartment
-die --- Anziehungskraft --- appeal
-die --- Billigung --- approval
-der --- Artikel --- article
-die --- Versammlung --- assembly
-der --- Verband --- association
-die --- Haltung --- attitude
-der --- Anwalt --- attorney
-das --- Publikum --- audience
-die --- Behörde --- authority
-der --- Hintergrund --- background
-das --- Band --- band
-die --- Grundlage --- base
-die --- Schlacht --- battle
-die --- Bucht --- bay
-die --- Schönheit --- beauty
-das --- Benehmen --- behavior
-der --- Glauben --- belief
-der --- Nutzen --- benefit
-die --- Bibel --- bible
-die --- Geburt --- birth
-der --- Block --- block
-die --- Brett --- board
-der --- Boden --- bottom
-der --- Atem --- breath
-die --- Budget --- budget
-die --- Verbrennung --- burning
-das --- Lager --- camp
-die --- Aufnahmefähigkeit --- capacity
-das --- Kapital --- capital
-der --- Kapitän --- captain
-die --- Karriere --- career
-die --- Zelle --- cell
-das --- Zentrum --- center
-das --- Jahrhundert --- century
-die --- Kette --- chain
-der --- Vordsitzender --- chairman
-die --- Chance --- chance
-das --- Kapitel --- chapter
-der --- Charakter --- character
-der --- Leiter --- chief
-die --- Kindheit --- childhood
-das --- Porzellan --- china
-die --- Wahl --- choice
-die --- Kirche --- church
-der --- Kreis --- circle
-der --- Bürger --- citizen
-der --- Anspruch --- claim
-die --- Klasse --- class
-der --- Lehm --- clay
-der --- Club --- club
-die --- Küste --- coast
-die --- Sammlung --- collection
-das --- College --- college
-die --- Farbe --- color
-die --- Säule --- column
-die --- Verbindung --- combination
-der --- Handel --- commerce
-der --- Werbespot --- commercial
-die --- Kommission --- commission
-das --- Komittee --- committee
-die --- Verbindung --- communication
-der --- Wettbewerb --- competition
-die --- Hautfarbe --- complexion
-die --- Planung --- concept
-das --- Ergebnis --- conclusion
-die --- Bedingung --- condition
-das --- Verhalten --- conduct
-die --- Besprechung --- conference
-das --- Zutrauen --- confidence
-der --- Konflikt --- conflict
-der --- Kongress --- congress
-das --- Bauwerk --- construction
-der --- Inhalt --- content
-der --- Vertrag --- contract
-das --- Gegenteil --- contrary
-der --- Gegensatz --- contrast
-die --- Kontrolle --- control
-das --- Gespräch --- conversation
-die --- Überzeugung --- conviction
-die --- Gesellschaft --- corporation
-die --- Ratsversammlung --- council
-die --- Grafschaft --- county
-die --- Kreis --- county
-der --- Lauf --- course
-der --- Verlauf --- course
-das --- Gericht --- court
-der --- Kredit --- credit
-die --- Krise --- crisis
-das --- Kreuz --- cross
-die --- Menge --- crowd
-die --- Kultur --- culture
-die --- Abmachung --- deal
-die --- Entscheidung --- decision
-die --- Verteidigung --- defense
-die --- Abteilung --- department
-die --- Tiefe --- depth
-der --- Schreibtisch --- desk
-die --- Detail --- detail
-der --- Detektiv --- detective
-die --- Entwicklung --- development
-das --- Gerät --- device
-der --- Unterschied --- difference
-der --- Distrikt --- district
-der --- Zweifel --- doubt
-das --- Dutzend --- dozen
-die --- Gebühr --- due
-der --- Staub --- dust
-die --- Pflicht --- duty
-die --- Wirtschaft --- economy
-die --- Kante --- edge
-der --- Herausgeber --- editor
-die --- Wirkung --- effect
-die --- Anstrengung --- effort
-die --- Wahl --- election
-das --- Element --- element
-der --- Angestellter --- employee
-die --- Energie --- energy
-die --- Ausrüstung --- equipment
-die --- Liegenschaft --- estate
-das --- Ereignis --- event
-der --- Beweis --- evidence
-der --- Geschäftsführer --- executive
-das --- Dasein --- existence
-die --- Erfahrung --- experience
-das --- Experiment --- experiment
-der --- Ausdruck --- expression
-die --- Ausdehnung --- extent
-die --- Tatsache --- fact
-der --- Faktor --- factor
-das --- Versagen --- failure
-das --- Märchen --- fairy tale
-der --- Glauben --- faith
-die --- Mode --- fashion
-der --- Gefallen --- favor
-das --- Gefühl --- feeling
-das --- Feld --- field
-die --- Feige --- fig
-der --- Kampf --- fight
-die --- Akte --- file
-der --- Film --- film
-der --- Fuss --- foot
-die --- Kraft --- force
-der --- Rahmen --- frame
-die --- Vorderseite --- front
-der --- Gewinn --- gain
-das --- Spiel --- game
-das --- Gas --- gas
-das --- Ziel --- goal
-die --- Regierung --- government
-die --- Gruppe --- group
-der --- Gast --- guest
-die --- Ernte --- harvest
-die --- Hitze --- heat
-die --- Hölle --- hell
-das --- Huhn --- hen
-der --- Held --- hero
-der --- Hügel --- hill
-die --- Geschichte --- history
-die --- Ehre --- honor
-die --- Hoffnung --- hope
-die --- Idee --- idea
-das --- Bild --- image
-der --- Einfluss --- impact
-der --- Einfluss --- influence
-die --- Innere --- interior
-das --- Problem --- issue
-der --- Job --- job
-der --- Richter --- judge
-die --- Gerechtigkeit --- justice
-das --- Wissen --- knowledge
-die --- Arbeit --- labor
-die --- Dame --- lady
-das --- Recht --- law
-die --- Länge --- length
-die --- Bibliothek --- library
-die --- Linie --- line
-die --- Liste --- list
-die --- Literatur --- literature
-der --- Standort --- location
-der --- Verlust --- loss
-der --- Haufen --- lot
-die --- Mehrheit --- majority
-der --- Markt --- market
-das --- Material --- material
-der --- Gegenstand --- matter
-das --- Maximum --- maximum
-die --- Bedeutung --- meaning
-das --- Mittel --- means
-das --- Mass --- measure
-das --- Mitglied --- member
-die --- Botschaft --- message
-die --- Methode --- method
-die --- Meile --- mile
-die --- Million --- million
-der --- Sinn --- mind
-der --- Geist --- mind
-das --- Minimum --- minimum
-der --- Minister --- minister
-der --- Augenblick --- moment
-die --- Bewegung --- motion
-der --- Motor --- motor
-die --- Bewegung --- movement
-der --- Mord --- murder
-die --- Musik --- music
-die --- Nachbarschaft --- neighborhood
-die --- Notiz --- note
-der --- Roman --- novel
-die --- Nuss --- nut
-die --- Gelegenheit --- occasion
-die --- Meinung --- opinion
-die --- Gelegenheit --- opportunity
-das --- Orchester --- orchestra
-die --- Organisation --- organization
-der --- Schmerz --- pain
-das --- Gemälde --- painting
-das --- Paar --- pair
-der --- Park --- park
-das --- Muster --- pattern
-die --- Zahlung --- payment
-der --- Frieden --- peace
-die --- Leistung --- performance
-die --- Vorstellung --- performance
-der --- Plan --- plan
-die --- Pflanze --- plant
-das --- Vergnügen --- pleasure
-der --- Punkt --- point
-die --- Polizei --- police
-das --- Schwimmbecken --- pool
-die --- Bevölkerung --- population
-der --- Teil --- portion
-die --- Lage --- position
-die --- Macht --- power
-die --- Kraft --- power
-die --- Übung --- practice
-der --- Präsident --- president
-der --- Druck --- pressure
-das --- Problem --- problem
-das --- Produkt --- product
-das --- Programm --- program
-der --- Fortschritt --- progress
-das --- Eigentum --- property
-der --- Schutz --- protection
-der --- Zweck --- purpose
-die --- Qualität --- quality
-die --- Frage --- question
-die --- Rasse --- race
-die --- Eisenbahn --- railroad
-der --- Bereich --- range
-der --- Kurs --- rate
-der --- Preis --- price
-die --- Wirklichkeit --- reality
-die --- Hinterseite --- rear
-die --- Schallplatte --- record
-der --- Hinblick --- regard
-das --- Verhältnis --- relation
-die --- Erleichterung --- relief
-die --- Religion --- religion
-das --- Risiko --- risk
-der --- Fels --- rock
-die --- Rolle --- role
-die --- Regel --- rule
-die --- Probe --- sample
-das --- Muster --- sample
-die --- Jahreszeit --- season
-der --- Sitz --- seat
-das --- Geheimnis --- secret
-die --- Sekretärin --- secretary
-der --- Sinn --- sense
-das --- Gefühl --- sense
-der --- Dienst --- service
-das --- Geschlecht --- sex
-die --- Form --- shape
-das --- Obdach --- shelter
-der --- Laden --- shop
-das --- Ufer --- shore
-der --- Strand --- shore
-die --- Seite --- side
-das --- Schild --- sign
-das --- Zeichen --- sign
-das --- Signal --- signal
-die --- Ruhe --- silence
-die --- Stille --- silence
-die --- Lage --- situation
-die --- Grösse --- size
-der --- Schmied --- smith
-die --- Gesellschaft --- society
-der --- Soldat --- soldier
-die --- Lösung --- solution
-das --- Lied --- song
-der --- Klang --- sound
-die --- Quelle --- source
-der --- Raum --- space
-die --- Geschwindigkeit --- speed
-der --- Geist --- spirit
-das --- Personal --- staff
-die --- Bühne --- stage
-der --- Staat --- state
-der --- Schritt --- step
-der --- Tritt --- step
-die --- Aktie --- stock
-das --- Lager --- stock
-der --- Stein --- stone
-die --- Geschichte --- story
-der --- Strom --- stream
-der --- Fluss --- stream
-die --- Kraft --- strength
-die --- Stärke --- strength
-der --- Erfolg --- success
-die --- Oberfläche --- surface
-die --- Überraschung --- surprise
-die --- Technik --- technique
-das --- Fernsehen --- television
-die --- Temperatur --- temperature
-die --- Spannung --- tension
-das --- Semester --- term
-der --- Begriff --- term
-das --- Theater --- theater
-der --- Titel --- title
-der --- Ton --- tone
-der --- Klang --- tone
-der --- Handel --- trade
-der --- Verkehr --- traffic
-die --- Behandlung --- treatment
-das --- Vertrauen --- trust
-der --- Trust --- trust
-die --- Wahrheit --- truth
-die --- Kurve --- turn
-die --- Reihe --- turn
-das --- Weltall --- universe
-die --- Universität --- university
-das --- Tal --- valley
-der --- Wert --- value
-der --- Sieg --- victory
-die --- Sicht --- view
-die --- Ansicht --- view
-die --- Stimme --- voice
-die --- Lautstärke --- volume
-der --- Band --- volume
-der --- Lohn --- wage
-der --- Lastwagen --- wagon
-der --- Kombi --- wagon
-die --- Mauer --- wall
-der --- Krieg --- war
-das --- Gewicht --- weight
-die --- Fürsorge --- welfare
-der --- Hof --- yard
-der --- Yard --- yard
-die --- Jugend --- youth
-die --- Fähigkeit --- ability
-das --- Konto --- account
-die --- Handlung --- action
-die --- Tätigkeit --- activity
-der --- Zusatz --- addition
-die --- Erweiterung --- addition
-das --- Gebiet --- area
-der --- Beweis --- argument
-die --- Zuweisung --- assignment
-der --- Beistand --- assistance
-die --- Achtung --- attention
-die --- Stück --- bit
-das --- Merkmal --- characteristics
-der --- Direktor --- director
-der --- Regisseur --- director
-die --- Besprechung --- discussion
-die --- Division --- division
-die --- Abteilung --- division
-die --- Erziehung --- education
-die --- Bildung --- education
-die --- Möglichkeit --- facility
-die --- Eigenschaft --- feature
-der --- Gefährte --- fellow
-der --- Kerl --- fellow
-der --- Zoll --- custom
-das --- Inhaltsverzeichnis --- index
-der --- Zeigefinger --- index finger
-der --- Anführer --- leader
-das --- Schloss (Türe) --- lock
-der --- Beamter --- officer
-der --- Punkt (Zeichen) --- period
-die --- Gegend --- region
-die --- Bemerkung --- remark
-die --- Forschung --- research
-das --- Ergebnis --- result
-die --- Szene --- scene
-der --- Schuss --- shot
-der --- Boden (Erde) --- soil
-der --- Arbeiter --- worker
-der --- Unfall --- accident
-die --- Nahrung --- food
-das --- Essen --- food
-das --- Hotel --- hotel
-die --- Art --- manner
-das --- Recht --- right
-die --- Sache --- thing
-das --- Ding --- thing
-der --- Mittag --- noon
-die --- Hinsicht --- aspect
-der --- Anblick --- aspect
-die --- Halle --- hall
-der --- Saal --- hall
-die --- Messe --- exhibition
-die --- Masse --- mass
-die --- Stelle --- spot
-der --- Ort --- spot
-die --- Waffe --- weapon
+die --- Adresse
+der --- Rat
+der --- Nachmittag
+das --- Alter
+das --- Ziel
+die --- Luft
+das --- Flugzeug
+der --- Flughafen
+der --- Alkohol
+das --- Tier
+die --- Antwort
+die --- Ameise
+der --- Appetit
+der --- Apfel
+die --- Aprikose
+der --- April
+der --- Arm
+der --- Sessel
+die --- Armee
+die --- Ankunft
+die --- Kunst
+der --- Versuch
+der --- August
+die --- Tante
+das --- Auto
+der --- Herbst
+der --- Speck
+die --- Tasche
+der --- Balkon
+der --- Ball
+die --- Banane
+die --- Bank
+die --- Bar
+die --- Gerste
+der --- Keller
+der --- Korb
+das --- Bad
+das --- Badezimmer
+der --- Strand
+die --- Bohne
+der --- Bart
+das --- Bett
+das --- Schlafzimmer
+die --- Biene
+das --- Rindfleisch
+das --- Steak
+das --- Bier
+der --- Anfang
+die --- Glocke
+der --- Gurt
+die --- Wette
+das --- Fahrrad
+die --- Rechnung
+der --- Vogel
+der --- Geburtstag
+das --- Biscuit
+die --- Decke
+das --- Blut
+die --- Bluse
+das --- Boot
+der --- Knochen
+das --- Buch
+die --- Buchhandlung
+die --- Flasche
+die --- Schale
+die --- Schachtel
+der --- Junge
+das --- Gehirn
+die --- Bremse
+das --- Brot
+die --- Brust
+der --- Besen
+der --- Bruder
+der --- Bus
+der --- Metzger
+die --- Butter
+der --- Schmetterling
+der --- Knopf
+der --- Kohl
+der --- Kuchen
+das --- Kalb
+die --- Kerze
+die --- Karte
+der --- Teppich
+die --- Kathedrale
+das --- Vieh
+der --- Blumenkohl
+der --- Grund
+der --- Keller
+das --- Zentrum
+das --- Jahrhundert
+der --- Stuhl
+die --- Wange
+die --- Kirsche
+die --- Brust
+das --- Kind
+das --- Kinn
+die --- Schokolade
+die --- Zigarette
+die --- Stadt
+der --- Kunde
+die --- Wolke
+der --- Mantel
+der --- Kaffee
+der --- Kragen
+die --- Farbe
+der --- Kamm
+die --- Gesellschaft
+der --- Kamarad
+die --- Verbindung
+das --- Seil
+die --- Ecke
+das --- Land
+das --- Paar
+die --- Kuh
+die --- Sahne
+das --- Verbrechen
+die --- Krone
+die --- Gurke
+die --- Tasse
+der --- Schrank
+der --- Vorhang
+der --- Zoll
+die --- Gefahr
+das --- Datum
+die --- Tochter
+der --- Tag
+der --- Grad
+die --- Anfrage
+der --- Zahnarzt
+die --- Abfahrt
+das --- Dessert
+das --- Abendessen
+die --- Richtung
+die --- Krankheit
+die --- Distanz
+der --- Hund
+der --- Esel
+die --- Schublade
+der --- Traum
+das --- Kleid
+die --- Ente
+die --- Wohnung
+das --- Ohr
+die --- Erde
+das --- Ei
+der --- Ellbogen
+der --- Elefant
+das --- Ende
+der --- Feind
+der --- Motor
+der --- Eingang
+der --- Briefumschlag
+der --- Abend
+die --- Beispiel
+der --- Wechsel
+der --- Ausgang
+das --- Auge
+das --- Gesicht
+die --- Fabrik
+die --- Familie
+der --- Bauernhof
+der --- Vater
+der --- Fehler
+die --- Angst
+der --- Februar
+der --- Finger
+das --- Feuer
+das --- Stockwerk
+das --- Mehl
+die --- Blume
+der --- Wald
+die --- Gabel
+die --- Form
+der --- Brunnen
+der --- Fuchs
+der --- Freitag
+die --- Zukunft
+der --- Garten
+das --- Benzin
+das --- Glas
+die --- Brille
+das --- Gold
+die --- Gans
+der --- Grossvater
+die --- Grossmutter
+das --- Gras
+der --- Boden
+das --- Gewehr
+der --- Schinken
+der --- Hammer
+die --- Hand
+die --- Handtasche
+das --- Taschentuch
+der --- Hut
+der --- Kopf
+die --- Gesundheit
+das --- Herz
+die --- Landstrasse
+das --- Loch
+das --- Pferd
+das --- Spital
+die --- Stunde
+das --- Haus
+der --- Ehemann
+das --- Eis
+das --- Eisen
+die --- Insel
+die --- Jacke
+die --- Marmelade
+der --- Januar
+der --- Saft
+der --- Juli
+der --- Juni
+die --- Art
+der --- Kuss
+das --- Knie
+das --- Messer
+die --- Leiter
+der --- See
+die --- Lampe
+das --- Land
+das --- Bein
+die --- Zitrone
+der --- Brief
+das --- Leben
+die --- Lippe
+das --- Mittagessen
+die --- Maschine
+das --- Magazin
+die --- Post
+die --- Landkarte
+die --- Hochzeit
+der --- Mai
+die --- Wiese
+die --- Mahlzeit
+das --- Fleisch
+das --- Metall
+die --- Milch
+die --- Minute
+der --- Spiegel
+der --- Fehler
+der --- Moment
+der --- Montag
+das --- Geld
+der --- Monat
+der --- Mond
+der --- Morgen
+die --- Mutter
+der --- Berg
+die --- Maus
+der --- Mund
+der --- Nagel
+der --- Name
+die --- Serviette
+die --- Natur
+der --- Hals
+die --- Nadel
+der --- Nachbar
+die --- Zeitung
+die --- Nacht
+die --- Nase
+der --- November
+die --- Zahl
+die --- Krankenschwester
+die --- Nuss
+die --- Eiche
+der --- Oktober
+das --- Öl
+die --- Zwiebel
+die --- Orange
+der --- Mantel
+die --- Seite
+das --- Papier
+die --- Party
+der --- Pass
+die --- Vergangenheit
+die --- Erbe
+die --- Birne
+der --- Kugelschreiber
+die --- Person
+das --- Bild
+das --- Schwein
+der --- Teller
+das --- Schweinefleisch
+die --- Postkarte
+der --- Topf
+die --- Kartoffel
+das --- Geschenk
+der --- Preis
+die --- Zwetschge
+das --- Radio
+der --- Regen
+der --- Grund
+das --- Restaurant
+der --- Reis
+das --- Dach
+das --- Zimmer
+der --- Salat
+das --- Salz
+der --- Samstag
+die --- Wurst
+die --- Schule
+die --- Wissenschaft
+die --- Schere
+die --- Schraube
+das --- Meer
+der --- September
+der --- Schatten
+das --- Schiff
+das --- Hemd
+die --- Schulter
+das --- Silber
+die --- Schwester
+die --- Haut
+der --- Rock
+der --- Himmel
+die --- Schnecke
+die --- Schlange
+der --- Schnee
+die --- Seife
+der --- Sohn
+die --- Suppe
+der --- Platz
+die --- Treppe
+die --- Briefmarke
+der --- Stern
+der --- Bahnhof
+der --- Stahl
+der --- Magen
+der --- Stein
+die --- Haltestelle
+der --- Laden
+der --- Sturm
+der --- Ofen
+die --- Erdbeere
+der --- Zucker
+der --- Anzug
+der --- Sommer
+die --- Sonne
+der --- Sonntag
+das --- Abendessen
+die --- Tisch
+die --- Aufgabe
+der --- Tee
+das --- Telefon
+der --- Durst
+der --- Gedanke
+der --- Faden
+der --- Hals
+der --- Daumen
+der --- Donner
+der --- Donnerstag
+die --- Fahrkarte
+die --- Kravatte
+der --- Tiger
+die --- Zeit
+der --- Reifen
+die --- Zehe
+die --- Toilette
+die --- Tomate
+die --- Zange
+die --- Zunge
+der --- Zahn
+der --- Turm
+die --- Stadt
+der --- Zug
+der --- Baum
+die --- Reise
+die --- Hose
+der --- Lastwagen
+der --- Dienstag
+der --- Schirm
+der --- Onkel
+das --- Kalbfleisch
+das --- Dorf
+der --- Kellner
+das --- Wasser
+der --- Weg
+das --- Wetter
+der --- Mittwoch
+die --- Woche
+das --- Rad
+die --- Ehefrau
+der --- Wind
+das --- Fenster
+der --- Wein
+der --- Winter
+die --- Frau
+das --- Holz
+die --- Wolle
+das --- Wort
+die --- Welt
+das --- Jahr
+der --- Schauspieler
+die --- Schauspielerin
+der --- Schriftsteller
+der --- Durchschnitt
+das --- Baby
+der --- Wagen
+das --- Auto
+die --- Karrotte
+der --- Kassierer
+der --- Kleider
+der --- Koch
+der --- Cousin
+die --- Cousine
+der --- Arzt
+die --- Ärztin
+der --- Lift
+die --- Stelle
+der --- Wecker
+der --- Knöchel
+der --- Künstler
+der --- Säugling
+der --- Rücken
+das --- Gepäck
+der --- Bäcker
+die --- Bäckerei
+die --- Banknote
+der --- Bär
+die --- Klingel
+das --- Getränk
+der --- Körper
+das --- Frühstück
+die --- Brücke
+die --- Bürste
+das --- Gebäude
+das --- Geschäft
+der --- Fall
+der --- Käse
+das --- Hühnchen
+die --- Uhr
+die --- Armbanduhr
+die --- Köchin
+die --- Wüste
+das --- Wörterbuch
+das --- Esszimmer
+die --- Türe
+die --- Fliege
+die --- Möbel
+das --- Mädchen
+die --- Lust
+der --- Schlüssel
+der --- König
+die --- Küche
+die --- Liebe
+das --- Glück
+der --- Mann
+der --- Mensch
+der --- März
+das --- Gedächtnis
+der --- Lärm
+das --- Büro
+das --- Stück
+das --- Postbüro
+die --- Königin
+der --- Kühlschrank
+die --- Landstrasse
+die --- Sünde
+der --- Löffel
+der --- Frühling
+der --- Geschmack
+die --- Träne
+die --- Zahnbürste
+der --- Staubsauger
+das --- Gemüse
+die --- Uhr
+die --- Arbeit
+das --- Café
+der --- Freund
+die --- Freundin
+die --- Nachrichten
+die --- Schuhe
+die --- Studentin
+der --- Lehrer
+die --- Lehrerin
+die --- Rübe
+die --- Katze
+der --- Wechsel
+die --- Weihnacht
+der --- Papa
+der --- Dezember
+der --- Christmonat
+der --- Osten
+der --- Westen
+die --- Wohnung
+das --- Wohnhaus
+der --- Gott
+die --- Hilfe
+das --- Eis
+das --- Interesse
+die --- Aufmerksamkeit
+die --- Sprache
+das --- Licht
+das --- Mittagessen
+die --- Mitternacht
+der --- Norden
+der --- Ofen
+das --- Teil
+der --- Großteil
+der --- Vorschlag
+der --- Fluss
+der --- Süden
+die --- Strasse
+der --- Student
+die --- Schwierigkeit
+die --- U-Bahn
+der --- Fahrstuhl
+der --- Wunsch
+der --- Ort
+die --- Verwaltung
+der --- Vorschuss
+der --- Vorteil
+die --- Werbung
+die --- Vereinbarung
+die --- Hilfe
+der --- Betrag
+der --- Winkel
+die --- Wohnung
+die --- Anziehungskraft
+die --- Billigung
+der --- Artikel
+die --- Versammlung
+der --- Verband
+die --- Haltung
+der --- Anwalt
+das --- Publikum
+die --- Behörde
+der --- Hintergrund
+das --- Band
+die --- Grundlage
+die --- Schlacht
+die --- Bucht
+die --- Schönheit
+das --- Benehmen
+der --- Glauben
+der --- Nutzen
+die --- Bibel
+die --- Geburt
+der --- Block
+die --- Brett
+der --- Boden
+der --- Atem
+die --- Budget
+die --- Verbrennung
+das --- Lager
+die --- Aufnahmefähigkeit
+das --- Kapital
+der --- Kapitän
+die --- Karriere
+die --- Zelle
+das --- Zentrum
+das --- Jahrhundert
+die --- Kette
+der --- Vordsitzender
+die --- Chance
+das --- Kapitel
+der --- Charakter
+der --- Leiter
+die --- Kindheit
+das --- Porzellan
+die --- Wahl
+die --- Kirche
+der --- Kreis
+der --- Bürger
+der --- Anspruch
+die --- Klasse
+der --- Lehm
+der --- Club
+die --- Küste
+die --- Sammlung
+das --- College
+die --- Farbe
+die --- Säule
+die --- Verbindung
+der --- Handel
+der --- Werbespot
+die --- Kommission
+das --- Komittee
+die --- Verbindung
+der --- Wettbewerb
+die --- Hautfarbe
+die --- Planung
+das --- Ergebnis
+die --- Bedingung
+das --- Verhalten
+die --- Besprechung
+das --- Zutrauen
+der --- Konflikt
+der --- Kongress
+das --- Bauwerk
+der --- Inhalt
+der --- Vertrag
+das --- Gegenteil
+der --- Gegensatz
+die --- Kontrolle
+das --- Gespräch
+die --- Überzeugung
+die --- Gesellschaft
+die --- Ratsversammlung
+die --- Grafschaft
+die --- Kreis
+der --- Lauf
+der --- Verlauf
+das --- Gericht
+der --- Kredit
+die --- Krise
+das --- Kreuz
+die --- Menge
+die --- Kultur
+die --- Abmachung
+die --- Entscheidung
+die --- Verteidigung
+die --- Abteilung
+die --- Tiefe
+der --- Schreibtisch
+die --- Detail
+der --- Detektiv
+die --- Entwicklung
+das --- Gerät
+der --- Unterschied
+der --- Distrikt
+der --- Zweifel
+das --- Dutzend
+die --- Gebühr
+der --- Staub
+die --- Pflicht
+die --- Wirtschaft
+die --- Kante
+der --- Herausgeber
+die --- Wirkung
+die --- Anstrengung
+die --- Wahl
+das --- Element
+der --- Angestellter
+die --- Energie
+die --- Ausrüstung
+die --- Liegenschaft
+das --- Ereignis
+der --- Beweis
+der --- Geschäftsführer
+das --- Dasein
+die --- Erfahrung
+das --- Experiment
+der --- Ausdruck
+die --- Ausdehnung
+die --- Tatsache
+der --- Faktor
+das --- Versagen
+das --- Märchen
+der --- Glauben
+die --- Mode
+der --- Gefallen
+das --- Gefühl
+das --- Feld
+die --- Feige
+der --- Kampf
+die --- Akte
+der --- Film
+der --- Fuss
+die --- Kraft
+der --- Rahmen
+die --- Vorderseite
+der --- Gewinn
+das --- Spiel
+das --- Gas
+das --- Ziel
+die --- Regierung
+die --- Gruppe
+der --- Gast
+die --- Ernte
+die --- Hitze
+die --- Hölle
+das --- Huhn
+der --- Held
+der --- Hügel
+die --- Geschichte
+die --- Ehre
+die --- Hoffnung
+die --- Idee
+das --- Bild
+der --- Einfluss
+der --- Einfluss
+die --- Innere
+das --- Problem
+der --- Job
+der --- Richter
+die --- Gerechtigkeit
+das --- Wissen
+die --- Arbeit
+die --- Dame
+das --- Recht
+die --- Länge
+die --- Bibliothek
+die --- Linie
+die --- Liste
+die --- Literatur
+der --- Standort
+der --- Verlust
+der --- Haufen
+die --- Mehrheit
+der --- Markt
+das --- Material
+der --- Gegenstand
+das --- Maximum
+die --- Bedeutung
+das --- Mittel
+das --- Mass
+das --- Mitglied
+die --- Botschaft
+die --- Methode
+die --- Meile
+die --- Million
+der --- Sinn
+der --- Geist
+das --- Minimum
+der --- Minister
+der --- Augenblick
+die --- Bewegung
+der --- Motor
+die --- Bewegung
+der --- Mord
+die --- Musik
+die --- Nachbarschaft
+die --- Notiz
+der --- Roman
+die --- Nuss
+die --- Gelegenheit
+die --- Meinung
+die --- Gelegenheit
+das --- Orchester
+die --- Organisation
+der --- Schmerz
+das --- Gemälde
+das --- Paar
+der --- Park
+das --- Muster
+die --- Zahlung
+der --- Frieden
+die --- Leistung
+die --- Vorstellung
+der --- Plan
+die --- Pflanze
+das --- Vergnügen
+der --- Punkt
+die --- Polizei
+das --- Schwimmbecken
+die --- Bevölkerung
+der --- Teil
+die --- Lage
+die --- Macht
+die --- Kraft
+die --- Übung
+der --- Präsident
+der --- Druck
+das --- Problem
+das --- Produkt
+das --- Programm
+der --- Fortschritt
+das --- Eigentum
+der --- Schutz
+der --- Zweck
+die --- Qualität
+die --- Frage
+die --- Rasse
+die --- Eisenbahn
+der --- Bereich
+der --- Kurs
+der --- Preis
+die --- Wirklichkeit
+die --- Hinterseite
+die --- Schallplatte
+der --- Hinblick
+das --- Verhältnis
+die --- Erleichterung
+die --- Religion
+das --- Risiko
+der --- Fels
+die --- Rolle
+die --- Regel
+die --- Probe
+das --- Muster
+die --- Jahreszeit
+der --- Sitz
+das --- Geheimnis
+die --- Sekretärin
+der --- Sinn
+das --- Gefühl
+der --- Dienst
+das --- Geschlecht
+die --- Form
+das --- Obdach
+der --- Laden
+das --- Ufer
+der --- Strand
+die --- Seite
+das --- Schild
+das --- Zeichen
+das --- Signal
+die --- Ruhe
+die --- Stille
+die --- Lage
+die --- Grösse
+der --- Schmied
+die --- Gesellschaft
+der --- Soldat
+die --- Lösung
+das --- Lied
+der --- Klang
+die --- Quelle
+der --- Raum
+die --- Geschwindigkeit
+der --- Geist
+das --- Personal
+die --- Bühne
+der --- Staat
+der --- Schritt
+der --- Tritt
+die --- Aktie
+das --- Lager
+der --- Stein
+die --- Geschichte
+der --- Strom
+der --- Fluss
+die --- Kraft
+die --- Stärke
+der --- Erfolg
+die --- Oberfläche
+die --- Überraschung
+die --- Technik
+das --- Fernsehen
+die --- Temperatur
+die --- Spannung
+das --- Semester
+der --- Begriff
+das --- Theater
+der --- Titel
+der --- Ton
+der --- Klang
+der --- Handel
+der --- Verkehr
+die --- Behandlung
+das --- Vertrauen
+der --- Trust
+die --- Wahrheit
+die --- Kurve
+die --- Reihe
+das --- Weltall
+die --- Universität
+das --- Tal
+der --- Wert
+der --- Sieg
+die --- Sicht
+die --- Ansicht
+die --- Stimme
+die --- Lautstärke
+der --- Band
+der --- Lohn
+der --- Lastwagen
+der --- Kombi
+die --- Mauer
+der --- Krieg
+das --- Gewicht
+die --- Fürsorge
+der --- Hof
+der --- Yard
+die --- Jugend
+die --- Fähigkeit
+das --- Konto
+die --- Handlung
+die --- Tätigkeit
+der --- Zusatz
+die --- Erweiterung
+das --- Gebiet
+der --- Beweis
+die --- Zuweisung
+der --- Beistand
+die --- Achtung
+die --- Stück
+das --- Merkmal
+der --- Direktor
+der --- Regisseur
+die --- Besprechung
+die --- Division
+die --- Abteilung
+die --- Erziehung
+die --- Bildung
+die --- Möglichkeit
+die --- Eigenschaft
+der --- Gefährte
+der --- Kerl
+der --- Zoll
+das --- Inhaltsverzeichnis
+der --- Zeigefinger
+der --- Anführer
+das --- Schloss
+der --- Beamter
+der --- Punkt
+die --- Gegend
+die --- Bemerkung
+die --- Forschung
+das --- Ergebnis
+die --- Szene
+der --- Schuss
+der --- Boden
+der --- Arbeiter
+der --- Unfall
+die --- Nahrung
+das --- Essen
+das --- Hotel
+die --- Art
+das --- Recht
+die --- Sache
+das --- Ding
+der --- Mittag
+die --- Hinsicht
+der --- Anblick
+die --- Halle
+der --- Saal
+die --- Messe
+die --- Masse
+die --- Stelle
+der --- Ort
+die --- Waffe

@@ -4,22 +4,18 @@ apfel:
   id: 1
   article: der
   german: Apfel
-  english: apple
 
 ball:
   id: 2
   article: der
   german: Ball
-  english: ball
-  
+    
 college:
   id: 3
   article: das
   german: College
-  english: college
   
 donner:
   id: 4
   article: der
   german: Donner
-  english: thunder

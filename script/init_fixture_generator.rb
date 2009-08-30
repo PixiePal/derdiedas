@@ -7,7 +7,7 @@ if __FILE__ == $0
     
     counter += 1
     line = "#{counter}:\n  id: #{counter}\n  article: #{words[0]}\n"  
-    line += "  german: #{words[1]}\n  english: #{words[2]}\n\n"
+    line += "  german: #{words[1]}\n\n"
     
     output.puts line
   end

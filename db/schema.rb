@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090809202652) do
+ActiveRecord::Schema.define(:version => 20090830212700) do
 
   create_table "correct_answers", :force => true do |t|
     t.integer  "word_id"
@@ -39,7 +39,6 @@ ActiveRecord::Schema.define(:version => 20090809202652) do
   create_table "words", :force => true do |t|
     t.string   "article"
     t.string   "german"
-    t.string   "english"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

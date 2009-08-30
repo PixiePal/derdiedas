@@ -4,8 +4,8 @@ if __FILE__ == $0
   while (line = input.gets)
     words = line.strip.split(/ --- /)
     
-    line = "insert into words (article, german, english)"
-    line += " values ('#{words[0]}', '#{words[1]}', '#{words[2]}');"
+    line = "insert into words (article, german)"
+    line += " values ('#{words[0]}', '#{words[1]}');"
     
     output.puts line
   end
