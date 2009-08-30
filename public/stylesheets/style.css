@@ -133,3 +133,17 @@ a:focus {
 	margin: 0.5em 0em 0em 0em;
 	padding: 0%;
 }
+
+
+#link_to_dict a, #link_to_dict a:link, #link_to_dict a:visited {
+	background-image: url(../images/question-mark.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 15px;
+	height: 15px;
+	text-decoration: none;
+}
+
+#link_to_dict a span {
+	visibility: hidden;
+}

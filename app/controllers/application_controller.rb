@@ -2,7 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  before_filter :set_charset
+  #before_filter :set_charset
   helper :all # include all helpers, all the time
   
   # See ActionController::RequestForgeryProtection for details
