@@ -1,25 +1,12 @@
 <div id="der_die_das">
     <ul>
-        <li id="der_button">
+	<% %w(der die das).each do |article| %>
+		<li id=<%="#{article}_button"%> class="button">
             <%= link_to_remote(
-					render(	:partial => "article_button",
-							:object => {:article => :der, :button_state => :button}),
+					"<span>#{article}</span>",
             		:url => {:action => :guess},
-            		:with => "'word_id=#{@main_word.id}&article_guess=der'")%>
+            		:with => "'word_id=#{@main_word.id}&article_guess=#{article}'")%>
         </li>
-        <li id="die_button">
-            <%= link_to_remote(
-					render(	:partial => "article_button", 
-							:object => {:article => :die, :button_state => :button}),
-					:url => {:action => :guess},
-            		:with => "'word_id=#{@main_word.id}&article_guess=die'") %>
-        </li>
-        <li id="das_button">
-            <%= link_to_remote(
-					render(	:partial => "article_button", 
-							:object => {:article => :das, :button_state => :button}),
-					:url => {:action => :guess},
-            		:with => "'word_id=#{@main_word.id}&article_guess=das'") %>
-        </li>
+	<% end %>
     </ul>
 </div>

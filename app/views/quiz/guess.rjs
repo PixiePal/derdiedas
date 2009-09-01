@@ -1,6 +1,7 @@
 %w{der die das}.each do |article|
   unless session["button_state_#{article}".to_sym] == :button
-    page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :wrong}
+    page["#{article}_button"].remove_class_name :button
+    page["#{article}_button"].add_class_name :wrong
   end
 end
 unless @missed_word_to_dispaly.nil?
@@ -10,26 +11,22 @@ unless @missed_word_to_dispaly.nil?
 end
 if @is_new_word
     unless session[:good_button_for].nil?
-      # Word guessed. Display good sign and dummys for other article buttons 
-      #TODO rewrite without loop
       %w{der die das}.each do |article|
         if article == session[:good_button_for]
-          page["#{article}_button"].replace_html :partial => "article_button", :object => {:article => article, :button_state => :good}  
+          page["#{article}_button"].remove_class_name :button
+          page["#{article}_button"].add_class_name :good  
         else
-          logger.debug "Check #{article}"
-          #debugger
-          page.select("##{article}_button a").each do |item|
-            item.replace "<img width=\"66\" height=\"41\" border=\"0\" src=\"/images/#{article}-ghost.png\" alt=\"der\"/>"
+          unless page["#{article}_button"].has_class_name :wrong
+            page["#{article}_button"].remove_class_name :button
+            page["#{article}_button"].add_class_name :ghost
           end
         end
       end
     end
-    #page[:der_button].fade
-    # replace good button
-    #page[:der_button].appear :queue => 'end'
+    page[:main_word].fade
+    page[:der_die_das].fade
     page.delay(1) {
       page[:der_die_das].reload
       page[:main_word].reload
-      #page[:main_word].visual_effect :highlight
     }
 end
