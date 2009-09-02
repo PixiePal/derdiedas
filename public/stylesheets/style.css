@@ -119,67 +119,53 @@ a:focus {
 #der_button a,
 #die_button a,
 #das_button a {
-	width: 66px;
-	height: 41px;
-	background-repeat: no-repeat;
-	background-position: left top;
-	display: inline-block;
-	text-decoration: none;
+  width: 66px;
+  height: 41px;
+  background-image: url(../images/derdiedas-buttons.png);
+  background-repeat: no-repeat;
+  text-decoration: none;
+  display: inline-block;
 }
-
-#der_button a span, 
-#die_button a span, 
+#der_button a span,
+#die_button a span,
 #das_button a span {
-	visibility: hidden;
+  visibility: hidden;
 }
-
-
 #der_button.button a {
-	background-image: url(../images/der-button.png);
+  background-position: -0px -0px;
 }
-
-#die_button.button a {
-	background-image: url(../images/die-button.png);
-}
-
-#das_button.button a {
-	background-image: url(../images/das-button.png);
-}
-
-#der_button.good a {
-	background-image: url(../images/der-good.png);
-}
-
-#die_button.good a {
-	background-image: url(../images/die-good.png);
-}
-
-#das_button.good a {
-	background-image: url(../images/das-good.png);
-}
-
-#der_button.wrong a {
-	background-image: url(../images/der-wrong.png);
-}
-
-#die_button.wrong a {
-	background-image: url(../images/die-wrong.png);
-}
-
-#das_button.wrong a {
-	background-image: url(../images/das-wrong.png);
-}
-
 #der_button.ghost a {
-	background-image: url(../images/der-ghost.png);
+  background-position: -0px -41px;
 }
-
+#der_button.wrong a {
+  background-position: -0px -82px;
+}
+#der_button.good a {
+  background-position: -0px -123px;
+}
+#die_button.button a {
+  background-position: -66px -0px;
+}
 #die_button.ghost a {
-	background-image: url(../images/die-ghost.png);
+  background-position: -66px -41px;
 }
-
+#die_button.wrong a {
+  background-position: -66px -82px;
+}
+#die_button.good a {
+  background-position: -66px -123px;
+}
+#das_button.button a {
+  background-position: -132px -0px;
+}
 #das_button.ghost a {
-	background-image: url(../images/das-ghost.png);
+  background-position: -132px -41px;
+}
+#das_button.wrong a {
+  background-position: -132px -82px;
+}
+#das_button.good a {
+  background-position: -132px -123px;
 }
 
 #wrong_answers {
