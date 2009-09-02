@@ -12,7 +12,7 @@
         <%= javascript_include_tag :defaults %>
     </head>
     <body>
-      <div id="header">Login</div>
+      <div id="header">Login | <%= link_to 'About', :controller => "info", :action => "about" %> | Blog</div>
       <div id="logo"></div>
       <div id="content">
          <%= yield %>
