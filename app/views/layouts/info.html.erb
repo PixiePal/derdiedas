@@ -7,29 +7,18 @@
 		<meta name="copyright" content="&copy; 2009 derdiedas-perfekt.com | Orsolya Toth-Gati and Norbert Toth-Gati">
 		<meta name="keywords" content="Deutsch als Fremdsprache, DaF, german, learning, learn, grammar, grammatik, deutsch, artikel, article, der, die, das, perfect, correct, practice">
 		
-        <title>Der-Die-Das</title>
-        <%= stylesheet_link_tag 'style' %>
+        <title>About</title>
+		<%= stylesheet_link_tag 'style' %>
+        <%= stylesheet_link_tag 'info' %>
         <%= javascript_include_tag :defaults %>
     </head>
     <body>
-      <div id="header">Login | <%= link_to 'About', :controller => "info", :action => "about" %> | Blog</div>
-      <div id="logo"></div>
+      <div id="header">Login | <%=link_to "Home", :controller =>"quiz", :action=>"index" %> | Blog</div>
+      
       <div id="content">
          <%= yield %>
       </div>
 	  <div id="footer">Copyright &copy; 2009 derdiedas-perfekt.com</div>
-	  <div id="preloaded-images">
-	    <div id="der_ghost" width="1" height="1" alt="" />
-		<div id="die_ghost" width="1" height="1" alt="" />
-		<div id="das_ghost" width="1" height="1" alt="" />
-		<div id="der_good" width="1" height="1" alt="" />
-		<div id="die_good" width="1" height="1" alt="" />
-		<div id="das_good" width="1" height="1" alt="" />
-		<div id="der_wrong" width="1" height="1" alt="" />
-		<div id="die_wrong" width="1" height="1" alt="" />
-		<div id="das_wrong" width="1" height="1" alt="" />
-		
-	  </div>  
 	  <script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
