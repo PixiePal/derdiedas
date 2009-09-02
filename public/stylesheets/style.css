@@ -18,33 +18,6 @@ div#preloaded-images {
    width: 1px;
 }
 
-#der_ghost {
-	background-image: url(../images/der-ghost.png);
-}
-#die_ghost {
-	background-image: url(../images/die-ghost.png);
-}
-#das_ghost {
-	background-image: url(../images/das-ghost.png);
-}
-#der_good {
-	background-image: url(../images/der-good.png);
-}
-#die_good {
-	background-image: url(../images/die-good.png);
-}
-#das_good {
-	background-image: url(../images/das-good.png);
-}
-#der_wrong {
-	background-image: url(../images/der-wrong.png);
-}
-#die_wrong {
-	background-image: url(../images/die-wrong.png);
-}
-#das_wrong {
-	background-image: url(../images/das-wrong.png);
-}
 a:active {
 	outline: none;
 }
