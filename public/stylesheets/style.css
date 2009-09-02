@@ -47,6 +47,7 @@ div#preloaded-images {
 }
 a:active {
 	outline: none;
+	
 }
 
 a:focus {
@@ -54,7 +55,8 @@ a:focus {
 }
 
 #header {
-	text-align: right;	
+	text-align: right;
+	text-decoration: underline;	
 }
 
 #footer {

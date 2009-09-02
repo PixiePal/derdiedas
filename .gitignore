@@ -5,3 +5,4 @@ config/database.yml
 db/*.sqlite3
 init_data.sql
 profiling/*.*
+app/**/**/.tmp*
