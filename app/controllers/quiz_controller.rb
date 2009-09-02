@@ -1,6 +1,5 @@
 class QuizController < ApplicationController
   
-  
   def index
     @main_word = get_new_word
     session[:is_retry] = false
@@ -11,8 +10,6 @@ class QuizController < ApplicationController
   end
   
   def guess
-    #TODO possible optimization? - work directly with german word and article 
-    # as parameters, thus avoiding going to the database for the word
     @main_word = Word.find_by_id params[:word_id]
     @missed_word_to_dispaly = nil
     @is_new_word = false
