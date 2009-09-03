@@ -12,6 +12,7 @@ end
 if @is_new_word
     unless session[:good_button_for].nil?
       %w{der die das}.each do |article|
+        page["#{article}_button"].replace_html "<a onclick=\"return false\" href=\"#\"><span>#{article}</span></a>"
         if article == session[:good_button_for]
           page["#{article}_button"].remove_class_name :button
           page["#{article}_button"].add_class_name :good  
