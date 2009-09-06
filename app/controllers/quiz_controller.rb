@@ -15,6 +15,8 @@ class QuizController < ApplicationController
     @is_new_word = false
     
     if (@main_word.article == params[:article_guess])
+      logger.debug "Correct guess #{params[:article_guess]} #{@main_word.german}"
+      
       # Word guesed -> switch to new word
       session[:good_button_for] = @main_word.article
       
@@ -29,7 +31,7 @@ class QuizController < ApplicationController
       session[:button_state_die] = :button
       session[:button_state_das] = :button
     else
-      # Wrong guess
+      logger.debug "Wrong guess: #{params[:article_guess]}. Correct would be: #{@main_word.article} #{@main_word.german}"
       session[:is_retry] = true
       session[:good_button_for] = nil
       session["button_state_#{params[:article_guess]}".to_sym] = :wrong
