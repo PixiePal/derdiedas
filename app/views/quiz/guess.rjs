@@ -1,33 +1,34 @@
-%w{der die das}.each do |article|
-  unless session["button_state_#{article}".to_sym] == :button
-    page["#{article}_button"].remove_class_name :button
-    page["#{article}_button"].add_class_name :wrong
-  end
+unless @wrong_button_for.nil?
+  page["#{@wrong_button_for}_button"].remove_class_name :button
+  page["#{@wrong_button_for}_button"].add_class_name :wrong
 end
-unless @missed_word_to_dispaly.nil?
-  #TODO change to partial
-  page.insert_html :bottom, "wrong_#{@missed_word_to_dispaly.article}", 
-    '<div class=\"one_word\"><p>' + @missed_word_to_dispaly.german + '</p></div>'
+
+#TODO change to partial
+unless @solved_word.nil?
+  page.insert_html( :bottom, 
+                    "wrong_#{@solved_word.article}", 
+                    render(:partial => 'word', :object => @solved_word))
 end
-if @is_new_word
-    unless session[:good_button_for].nil?
-      %w{der die das}.each do |article|
-        page["#{article}_button"].replace_html "<a onclick=\"return false\" href=\"#\"><span>#{article}</span></a>"
-        if article == session[:good_button_for]
-          page["#{article}_button"].remove_class_name :button
-          page["#{article}_button"].add_class_name :good  
-        else
-          unless page["#{article}_button"].has_class_name :wrong
-            page["#{article}_button"].remove_class_name :button
-            page["#{article}_button"].add_class_name :ghost
-          end
-        end
+
+
+unless @good_button_for.nil?
+  %w{der die das}.each do |article|
+    page["#{article}_button"].replace_html "<a onclick=\"return false\" href=\"#\"><span>#{article}</span></a>"
+    if article == @good_button_for
+      page["#{article}_button"].remove_class_name :button
+      page["#{article}_button"].add_class_name :good  
+    else
+      unless page["#{article}_button"].has_class_name :wrong
+        page["#{article}_button"].remove_class_name :button
+        page["#{article}_button"].add_class_name :ghost
       end
     end
-    page[:main_word].fade
-    page[:der_die_das].fade
-    page.delay(1) {
-      page[:der_die_das].reload
-      page[:main_word].reload
-    }
+  end
+    
+  page[:main_word].fade
+  page[:der_die_das].fade
+  page.delay(1) do
+    page[:der_die_das].reload
+    page[:main_word].reload
+  end
 end
