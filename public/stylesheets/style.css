@@ -21,11 +21,11 @@ a, a:active {
     text-decoration: none;
 }
 
-#header a, a:active {
+#header a, #header a:active {
     outline: none;
     color: #224893;
     text-decoration: none;
-	margin-left:10px;
+    margin-left: 10px;
 }
 
 #header a:hover {
@@ -39,7 +39,7 @@ a:focus {
 
 #header {
     text-align: right;
-    font-size: 13px;
+    font-size: 80%;
 }
 
 #footer {
@@ -58,17 +58,6 @@ a:focus {
     background-position: left top;
     position: relative;
     float: left;
-    border-right: dotted;
-}
-
-#logo_no_border {
-    background-image: url(../images/derdiedas.png);
-    width: 300px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    position: relative;
-    float: left;
 }
 
 #content {
@@ -77,11 +66,11 @@ a:focus {
     text-align: center;
     position: relative;
 }
+
 #content_fb {
     text-align: left;
     font-family: "Arial Rounded MT Bold";
 }
-
 
 #quiz_wrapper {
     width: 100%;
@@ -216,7 +205,7 @@ a:focus {
 }
 
 .one_word {
-	padding: 0%;
+    padding: 0%;
 }
 
 #link_to_dict {
@@ -254,7 +243,7 @@ a:focus {
 #feedback_listing {
     float: left;
     margin: 5px 0 15px 0;
-	border-bottom:groove;
+    border-bottom: groove;
 }
 
 .fieldWithErrors {
