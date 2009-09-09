@@ -70,6 +70,7 @@ a:focus {
 #content_fb {
   text-align: left;
   font-size: 95%;
+  width: 60%;
 }
 
 #quiz_wrapper {
