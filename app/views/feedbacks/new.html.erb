@@ -1,0 +1,45 @@
+<% title "Feedback" %>
+<%= error_messages_for 'story' %>
+<div id="content_fb">
+    <div id="feedback" class="title">
+        <h2>Feedback</h2>
+    </div>
+    <div id="feedback1">
+        Contact us with any questions, suggestions, comments or
+        <br>
+        feedback. Please feel free to drop us a note explaining 
+        <br>
+        what type of support you need.We're happy to help! 
+    </div>
+    <div id="feedback2">
+        Send your questions, suggestions at:
+        <br>
+        <a href="mailto:support@derdiedas-perfekt.com">support@derdiedas-perfekt.com</a>
+    </div>
+    <div id="feedback3">
+        Or just fill out the below form:
+    </div>
+    <div id="feedback_form">
+        <% form_for @feedback do |f| %>
+        <%= f.error_messages %>
+        <p>
+            <%= f.label :name %>
+            <br/>
+            <%= f.text_field :name %>
+        </p>
+        <p>
+            <%= f.label :email %>
+            <br/>
+            <%= f.text_field :email %>
+        </p>
+        <p>
+            <%= f.label :message %>
+            <br/>
+            <%= f.text_area :message %>
+        </p>
+        <p>
+            <%= f.submit "Submit" %>
+        </p>
+        <% end %>
+    </div>
+</div>

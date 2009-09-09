@@ -2,9 +2,12 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :users
 
   map.resource :session
+  
+  map.resource :feedbacks
 
   map.with_options :controller => 'info' do |info|
     info.about 'about', :action => 'about' 
+    info.services 'blog', :action => 'blog'
   end
   # The priority is based upon order of creation: first created -> highest priority.
 
