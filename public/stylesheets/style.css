@@ -1,262 +1,262 @@
 body {
-    margin: 10px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }* {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 div#preloaded-images {
-    position: absolute;
-    overflow: hidden;
-    left: -9999px;
-    top: -9999px;
-    height: 1px;
-    width: 1px;
+  position: absolute;
+  overflow: hidden;
+  left: -9999px;
+  top: -9999px;
+  height: 1px;
+  width: 1px;
 }
 
 a, a:active {
-    outline: none;
-    color: #000;
-    text-decoration: none;
+  outline: none;
+  color: #000;
+  text-decoration: none;
 }
 
 #header a, #header a:active {
-    outline: none;
-    color: #224893;
-    text-decoration: none;
-    margin-left: 10px;
+  outline: none;
+  color: #224893;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 #header a:hover {
-    background-color: #224893;
-    color: #fff;
+  background-color: #224893;
+  color: #fff;
 }
 
 a:focus {
-    outline-style: none;
+  outline-style: none;
 }
 
 #header {
-    text-align: right;
-    font-size: 80%;
+  text-align: right;
+  font-size: 80%;
 }
 
 #footer {
-    text-align: center;
-    font-size: 60%;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
+  text-align: center;
+  font-size: 60%;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
 
 #logo {
-    background-image: url(../images/derdiedas.png);
-    width: 300px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: left top;
-    position: relative;
-    float: left;
+  background-image: url(../images/derdiedas.png);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+  float: left;
 }
 
 #content {
-    background-color: #fff;
-    overflow: hidden;
-    text-align: center;
-    position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 
 #content_fb {
-    text-align: left;
-    font-family: "Arial Rounded MT Bold";
+  text-align: left;
+  font-size: 95%;
 }
 
 #quiz_wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 #quiz_wrapper h1 {
-    padding: 0.5em 0em 0.5em 0em;
+  padding: 0.5em 0em 0.5em 0em;
 }
 
 #der_die_das {
-    list-style: none;
-    position: relative;
-    margin-bottom: 1em;
+  list-style: none;
+  position: relative;
+  margin-bottom: 1em;
 }
 
 #der_die_das ul {
 }
 
 #der_die_das ul li {
-    display: inline;
+  display: inline;
 }
 
 #der_die_das ul li {
-    text-decoration: none;
-    color: #003bb2;
-    margin-right: 10px;
+  text-decoration: none;
+  color: #003bb2;
+  margin-right: 10px;
 }
 
 #der_die_das ul li a:visited {
-    border: none;
-    display: none;
+  border: none;
+  display: none;
 }
 
 #der_button a, #die_button a, #das_button a {
-    width: 66px;
-    height: 41px;
-    background-image: url(../images/derdiedas-buttons.png);
-    background-repeat: no-repeat;
-    text-decoration: none;
-    display: inline-block;
+  width: 66px;
+  height: 41px;
+  background-image: url(../images/derdiedas-buttons.png);
+  background-repeat: no-repeat;
+  text-decoration: none;
+  display: inline-block;
 }
 
 #der_button a span, #die_button a span, #das_button a span {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #der_button.button a {
-    background-position: -0px -0px;
+  background-position: -0px -0px;
 }
 
 #der_button.ghost a {
-    background-position: -0px -41px;
+  background-position: -0px -41px;
 }
 
 #der_button.wrong a {
-    background-position: -0px -82px;
+  background-position: -0px -82px;
 }
 
 #der_button.good a {
-    background-position: -0px -123px;
+  background-position: -0px -123px;
 }
 
 #die_button.button a {
-    background-position: -66px -0px;
+  background-position: -66px -0px;
 }
 
 #die_button.ghost a {
-    background-position: -66px -41px;
+  background-position: -66px -41px;
 }
 
 #die_button.wrong a {
-    background-position: -66px -82px;
+  background-position: -66px -82px;
 }
 
 #die_button.good a {
-    background-position: -66px -123px;
+  background-position: -66px -123px;
 }
 
 #das_button.button a {
-    background-position: -132px -0px;
+  background-position: -132px -0px;
 }
 
 #das_button.ghost a {
-    background-position: -132px -41px;
+  background-position: -132px -41px;
 }
 
 #das_button.wrong a {
-    background-position: -132px -82px;
+  background-position: -132px -82px;
 }
 
 #das_button.good a {
-    background-position: -132px -123px;
+  background-position: -132px -123px;
 }
 
 #wrong_answers {
-    border-color: #000;
-    border-top-style: dotted;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    margin: 0% 5% 0% 5%;
+  border-color: #000;
+  border-top-style: dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 0% 5% 0% 5%;
 }
 
 #wrong_der {
-    position: relative;
-    float: left;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 20%;
+  position: relative;
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 20%;
 }
 
 #wrong_die {
-    float: left;
-    position: relative;
-    overflow: hidden;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 20%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 20%;
 }
 
 #wrong_das {
-    float: left;
-    overflow: hidden;
-    margin-right: 5%;
-    margin-left: 5%;
-    width: 20%;
+  float: left;
+  overflow: hidden;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 20%;
 }
 
 #wrong_der h4, #wrong_die h4, #wrong_das h4 {
-    padding-bottom: 2%;
-    padding-top: 5%;
+  padding-bottom: 2%;
+  padding-top: 5%;
 }
 
 .one_word {
-    padding: 0%;
+  padding: 0%;
 }
 
 #link_to_dict {
-    background-image: url(../images/question-mark.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-    width: 15px;
-    height: 15px;
-    text-decoration: none;
+  background-image: url(../images/question-mark.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 15px;
+  height: 15px;
+  text-decoration: none;
 }
 
 #link_to_dict span {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 #feedback, #feedback1, #feedback2, #feedback3, #about, #about1, #about2, #about3, #about4, #about5, #about6, #about7, #about8, #text1 {
-    margin: 5% 0 0 10%;
-    width: 60%;
+  margin: 5% 0 0 10%;
+  width: 60%;
 }
 
 .title {
-    color: #224EA7;
+  color: #224EA7;
 }
 
 .subtitle {
-    color: #224893;
+  color: #224893;
 }
 
 #feedback_form {
-    margin: 5% 0 0 10%;
-    width: 60%;
-    padding-bottom: 10px;
+  margin: 5% 0 0 10%;
+  width: 60%;
+  padding-bottom: 10px;
 }
 
 #feedback_listing {
-    float: left;
-    margin: 5px 0 15px 0;
-    border-bottom: groove;
+  float: left;
+  margin: 5px 0 15px 0;
+  border-bottom: groove;
 }
 
 .fieldWithErrors {
-    border: 5px solid #f66;
+  border: 5px solid #f66;
 }
 
 #feedback_listing a, #feedback2 a, #about_main a {
-    text-decoration: none;
-    color: #224893;
+  text-decoration: none;
+  color: #224893;
 }
 
 #feedback2 a:hover, #about_main a:hover {
-    text-decoration: none;
-    background-color: #224893;
-    color: #fff;
+  text-decoration: none;
+  background-color: #224893;
+  color: #fff;
 }
