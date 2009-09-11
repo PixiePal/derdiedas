@@ -18,8 +18,10 @@
             <%= link_to 'Blog', :controller => "info", :action => "blog" %>
             <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
         </div>
-        <div id="logo">
-        </div>
+		<div id="left_column">
+        	<div id="logo">
+        	</div>
+		</div>
         <div id="content">
             <% unless flash[:error].blank? %>
             <div id="notification">

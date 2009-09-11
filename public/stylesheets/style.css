@@ -47,7 +47,12 @@ a:focus {
   font-size: 60%;
   width: 100%;
   clear: both;
-  border-top: 100px solid #fff;
+  padding-top: 100px;
+}
+
+#left_column {
+	width: 210px;
+	height: 90%;
 }
 
 #logo {
