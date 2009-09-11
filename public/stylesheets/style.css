@@ -45,15 +45,15 @@ a:focus {
 #footer {
   text-align: center;
   font-size: 60%;
-  position: absolute;
-  bottom: 10px;
   width: 100%;
+  clear: both;
+  border-top: 100px solid #fff;
 }
 
 #logo {
   background-image: url(../images/derdiedas.png);
-  width: 300px;
-  height: 300px;
+  width: 207px;
+  height: 268px;
   background-repeat: no-repeat;
   background-position: left top;
   position: relative;
