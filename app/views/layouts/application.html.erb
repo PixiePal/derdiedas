@@ -12,9 +12,17 @@
     </head>
     <body>
         <div id="header">
-            Login
-			<%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
-			<%= link_to 'About', :controller => "info", :action => "about" %>
+            <% if @current_user %>
+              Logged in as:
+              <%= @current_user.login %>
+              <em><%= link_to "(Logout)", session_path, :method => :delete %></em>
+            <% else %>
+              <em>Welcome! Login or Register.</em>
+              <%= link_to 'Login', new_session_path %>
+            <% end %>
+						<%= link_to 'Register', new_user_path %>
+            <%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
+			      <%= link_to 'About', :controller => "info", :action => "about" %>
             <%= link_to 'Blog', :controller => "info", :action => "blog" %>
             <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
         </div>
@@ -30,7 +38,8 @@
             <div id="notification">
                 <%= flash[:notice] %>
             </div>
-            <% end %>        	
+            <% end %>
+						<div id="content">
             <%= yield %>
         </div>
         <div id="footer">
