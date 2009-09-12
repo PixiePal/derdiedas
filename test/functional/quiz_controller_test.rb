@@ -78,4 +78,54 @@ class QuizControllerTest < ActionController::TestCase
     assert assigns(:solved_word) == words(:ball)
   end
   
+  def test_summary
+    get :index
+    assert_equal 0, session[:quiz_counter]
+    assert_equal [], session[:mistakes]
+    assert_equal false, assigns(:display_summary)
+    
+    # A simple wrong guess
+    xml_http_request :get, :guess, :word_id => words(:ball).id, :article_guess => 'die'
+    assert_equal 0, session[:quiz_counter]
+    assert_equal mistakes_array([:ball]), session[:mistakes]
+    assert_equal false, assigns(:display_summary)
+    xml_http_request :get, :guess, :word_id => words(:ball).id, :article_guess => 'der'
+    assert_equal 1, session[:quiz_counter]
+    assert_equal mistakes_array([:ball]), session[:mistakes]
+    assert_equal false, assigns(:display_summary)
+    
+    # A good guess
+    xml_http_request :get, :guess, :word_id => words(:apfel).id, :article_guess => 'der'
+    assert_equal 2, session[:quiz_counter]
+    assert_equal mistakes_array([:ball]), session[:mistakes].sort
+    assert_equal false, assigns(:display_summary)
+    
+    # A double wrong guess
+    xml_http_request :get, :guess, :word_id => words(:college).id, :article_guess => 'der'
+    assert_equal 2, session[:quiz_counter]
+    assert_equal mistakes_array([:ball, :college]), session[:mistakes].sort
+    assert_equal false, assigns(:display_summary)
+    xml_http_request :get, :guess, :word_id => words(:college).id, :article_guess => 'die'
+    assert_equal 2, session[:quiz_counter]
+    assert_equal mistakes_array([:ball, :college]), session[:mistakes].sort
+    assert_equal false, assigns(:display_summary)
+    xml_http_request :get, :guess, :word_id => words(:college).id, :article_guess => 'das'
+    assert_equal 3, session[:quiz_counter]
+    assert_equal mistakes_array([:ball, :college]), session[:mistakes].sort
+    
+    assert assigns(:display_summary)
+    assert_response :success
+    assert_template :guess
+    
+    assert !assigns(:summary).nil?
+    assert_equal 1, assigns(:summary)[:correct_count]
+    assert_equal 3, assigns(:summary)[:total_count]
+    assert_equal [words(:ball), words(:college)].sort, assigns(:summary)[:mistakes].sort
+  end
+  
+private
+  def mistakes_array(word_symbols)
+    a = word_symbols.collect { |word_symbol| words(word_symbol).id.to_s}
+    a.sort
+  end
 end

@@ -2,6 +2,9 @@ class QuizController < ApplicationController
   
   def index
     @main_word = get_new_word
+    session[:quiz_counter] = 0
+    session[:mistakes] = []
+    @display_summary = false
   end
   
   def guess
@@ -11,15 +14,30 @@ class QuizController < ApplicationController
       @good_button_for = @main_word.article
       @solved_word = @main_word
       @main_word = get_new_word
+      session[:quiz_counter].nil? ? session[:quiz_counter] = 1 : session[:quiz_counter] += 1
+      if session[:quiz_counter] == 3
+        @display_summary = true
+        @summary = prepare_quiz_summary
+      end
     else
       logger.debug "Wrong guess: #{params[:article_guess]}. " + 
           "Correct would be: #{@main_word.article} #{@main_word.german}"
       @wrong_button_for = "#{params[:article_guess]}"
-   end  
+      session[:mistakes].nil? ? session[:mistakes] = [] : session[:mistakes] << params[:word_id]
+      session[:mistakes].uniq!
+   end
   end
   
 private
   def get_new_word
     Word.find(:first, :offset=>(rand Word.count_cache))
+  end
+  
+  def prepare_quiz_summary
+    summary = {}
+    summary[:correct_count] = session[:quiz_counter] - session[:mistakes].size
+    summary[:total_count] = session[:quiz_counter]
+    summary[:mistakes] = session[:mistakes].collect {|word_id| Word.find_by_id word_id}
+    summary
   end
 end

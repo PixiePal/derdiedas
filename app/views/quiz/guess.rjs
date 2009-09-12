@@ -3,7 +3,6 @@ unless @wrong_button_for.nil?
   page["#{@wrong_button_for}_button"].add_class_name :wrong
 end
 
-#TODO change to partial
 unless @solved_word.nil?
   page.insert_html( :bottom, 
                     "wrong_#{@solved_word.article}", 
@@ -28,7 +27,11 @@ unless @good_button_for.nil?
   page[:main_word].fade
   page[:der_die_das].fade
   page.delay(1) do
-    page[:der_die_das].reload
-    page[:main_word].reload
+    unless @display_summary
+      page[:der_die_das].reload
+      page[:main_word].reload
+    else
+      page["content"].replace_html render(:partial => 'summary', :object => @summary)
+    end
   end
 end

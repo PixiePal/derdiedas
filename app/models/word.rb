@@ -7,4 +7,8 @@ class Word < ActiveRecord::Base
   def self.count_cache
     @@count_cache
   end
+  
+  def <=> (o)
+    self.german <=> o.german
+  end
 end
