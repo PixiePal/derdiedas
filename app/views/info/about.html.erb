@@ -1,41 +1,13 @@
 <% title "About us" %>
-<div id="content_fb">
-    <div id="about" class="title">
-        <h2>About us</h2>
-    </div>
-    <div id="about_main">
-        <div id="about1" class="subtitle">
-            <h4>We are </h4>
-        </div>
-        <div id="about2">
-            two enthusiastic Ruby on Rails programmers. Each time we played around 
-            in Ruby, we were just amazed by the simplicity and straightforward  
-            manner a problem may be solved. No need to say, we spent our first 
-            years of worker life in a real huge project, dedicated to enterprise 
-            challenges.
-        </div>
-        <div id="about3">
-            Made up finally our minds to create something that would be useful 
-            and used by many of the netizens, here is our first project.
-        </div>
-        <div id="about4" class="subtitle">
-            <h4><%= link_to "derdiedas-perfekt.com", :controller=>"quiz", :action=>"index" %>is</h4>
-        </div>
-        <div id="about5">
-            a service to achieve correct use of articles for german nouns. 
-            Every non-native german speaker struggles with them. Learning german is not easy. 
-        </div>
-        <div id="about5">
-            With our help will be no challenge for you in no time. 
-        </div>
-        <div id="about6">
-            Practice makes perfect ! 
-        </div>
-        <div id="about7" class="subtitle">
-            <h4><%= link_to "Contact", "feedbacks/new" %></h4>
-        </div>
-        <div id="about8">
-            Questions, comments, feedback? We'd like to hear from you. 
-        </div>
-    </div>
+<div id="about">
+  <h2 class="title">About us</h2>
+  <h3 class="subtitle">We are </h4>
+  <p>two enthusiastic Ruby on Rails programmers. Each time we played around in Ruby, we were just amazed by the simplicity and straightforward manner a problem may be solved. No need to say, we spent our first years of worker life in a real huge project, dedicated to enterprise challenges.</p>
+  <p>Made up finally our minds to create something that would be useful and used by many of the netizens, here is our first project.</p>
+  <h3 class="subtitle"><%= link_to "derdiedas-perfekt.com", :controller=>"quiz", :action=>"index" %>is</h4>
+  <p>a service to achieve correct use of articles for german nouns. Every non-native german speaker struggles with them. Learning german is not easy.</p>
+  <p>With our help will be no challenge for you in no time.</p>
+  <p>Practice makes perfect!</p>
+  <h3 class="subtitle"><%= link_to "Contact", "feedbacks/new" %></h4>
+  <p>Questions, comments, feedback? We'd like to hear from you.</p>
 </div>

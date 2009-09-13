@@ -1,8 +1,9 @@
 html, body {
-  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
-  margin: 0px;
-  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -21,6 +22,9 @@ html, body {
 #container {
   min-height: 100%;
   margin-bottom: -36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 #footer_spacer {
@@ -35,13 +39,21 @@ html, body {
   padding: 10px;
   background-color: #fab30e;
   border-top: 1px solid black;
-  height: 35px;
+  height: 15px;
 }
 
 #header {
   text-align: right;
   font-size: 80%;
-  padding-bottom: 2em;
+  background-color: #fab30e;
+  padding: 1em;
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 15px;
+}
+
+#header span {
+  padding: 1em; 
 }
 
 #header a, #header a:active {
@@ -70,7 +82,6 @@ a:focus {
   margin-left: 10px;
   margin-right: 10px;
   width: 210px;
-  height: 90%;
 }
 
 #logo {
@@ -89,12 +100,12 @@ a:focus {
   text-align: center;
   position: relative;
   border: 5px solid #e0e0e0;
+  width: 500px;
 }
 
-#content_fb {
+#about {
   text-align: left;
   font-size: 95%;
-  width: 60%;
 }
 
 #quiz_wrapper {
@@ -246,9 +257,11 @@ a:focus {
   visibility: hidden;
 }
 
-#feedback, #feedback1, #feedback2, #feedback3, #about, #about1, #about2, #about3, #about4, #about5, #about6, #about7, #about8, #text1 {
+#feedback,
+#about {
   padding: 5% 0 0 10%;
-  width: 60%;
+  width: 80%;
+  text-align: left;
 }
 
 .title {
@@ -268,7 +281,7 @@ a:focus {
 
 #feedback_listing {
   float: left;
-  margin: 5px 0 15px 0;
+  padding: 5px 0 15px 0;
   border-bottom: groove;
 }
 

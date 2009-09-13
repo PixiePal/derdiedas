@@ -13,12 +13,6 @@
     <body>
 	    <div id="top"></div>
         <div id="header">
-            <%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
-            <%= link_to 'What is this?', :controller => "info", :action => "service" %>
-			      <%= link_to 'About', :controller => "info", :action => "about" %>
-            <%= link_to 'Blog', :controller => "info", :action => "blog" %>
-            <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
-						<%= link_to 'Register', new_user_path %>
             <% if @current_user %>
               Logged in as:
               <%= @current_user.login %>
@@ -26,44 +20,51 @@
             <% else %>
               <%= link_to 'Login', new_session_path %>
             <% end %>
-            
+            <%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
+            <%= link_to 'What is this?', :controller => "info", :action => "service" %>
+			      <%= link_to 'About', :controller => "info", :action => "about" %>
+            <%= link_to 'Blog', :controller => "info", :action => "blog" %>
+            <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
+						<%= link_to 'Register', new_user_path %>
+            <span></span>						
         </div>
 		<div id="container">
 			<div id="left_column">
         		<div id="logo">
         		</div>
 			</div>
-        	<div id="content">
-            	<% unless flash[:error].blank? %>
-            	<div id="notification">
-                	<%= flash[:error] %>
-            	</div>
-            	<% end %>
-            	<% unless flash[:notice].blank? %>
-            	<div id="notification">
-                	<%= flash[:notice] %>
-            	</div>
-            	<% end %>
-            	<%= yield %>
-        	</div>
-			<div id="footer-spacer"></div>
+		<div id="content">
+			<% unless flash[:error].blank? %>
+			<div id="notification">
+				<%= flash[:error] %>
+			</div>
+			<% end %>
+			<% unless flash[:notice].blank? %>
+			<div id="notification">
+				<%= flash[:notice] %>
+			</div>
+			<% end %>
+			<%= yield %>
 		</div>
-        <div id="footer">
-            Copyright &copy; 2009 derdiedas-perfekt.com
-        </div>
-        <div id="preloaded-images">
-        </div>
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <script type="text/javascript">
-            try {
-                var pageTracker = _gat._getTracker("UA-152633-8");
-                pageTracker._trackPageview();
-            } 
-            catch (err) {
-            }
-        </script>
-    </body>
+		<div id="footer-spacer"></div>
+	</div>
+	<div id="footer">
+		Copyright &copy; 2009 derdiedas-perfekt.com
+	</div>
+	<div id="preloaded-images">
+	</div>
+
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-152633-8");
+		pageTracker._trackPageview();
+	} 
+	catch (err) {
+	}
+	</script>
+</body>
 </html>
