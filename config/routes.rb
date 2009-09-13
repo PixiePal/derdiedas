@@ -7,7 +7,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.with_options :controller => 'info' do |info|
     info.about 'about', :action => 'about' 
-    info.services 'blog', :action => 'blog'
+    info.blog 'blog', :action => 'blog'
+    info.service 'service', :action => 'service'
   end
   # The priority is based upon order of creation: first created -> highest priority.
 
