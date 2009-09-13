@@ -120,6 +120,7 @@ class QuizControllerTest < ActionController::TestCase
     assert !assigns(:summary).nil?
     assert_equal 1, assigns(:summary)[:correct_count]
     assert_equal 3, assigns(:summary)[:total_count]
+    assert_equal "Leider ungenügend. Nochmal probieren!", assigns(:summary)[:sentence]
     assert_equal [words(:ball), words(:college)].sort, assigns(:summary)[:mistakes].sort
   end
   

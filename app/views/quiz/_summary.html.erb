@@ -1,4 +1,7 @@
-<p>You have <strong><%= summary[:correct_count]%></strong> correct out of <strong><%= summary[:total_count]%></strong>.</p>
-<p>Words you need to work on:
-	<%= render :partial => 'word', :collection => summary[:mistakes] %>
-</p>
+<p><%= summary[:sentence]%></p>
+<p><strong><%= summary[:correct_count]%></strong> von <strong><%= summary[:total_count]%></strong> Richtig.</p>
+<% unless summary[:mistakes].empty? %>
+	<p>Zum Üben:
+		<%= render :partial => 'word', :collection => summary[:mistakes] %>
+	</p>
+<% end%>

@@ -38,6 +38,23 @@ private
     summary[:correct_count] = session[:quiz_counter] - session[:mistakes].size
     summary[:total_count] = session[:quiz_counter]
     summary[:mistakes] = Word.find_all_by_id session[:mistakes]
+    summary[:sentence] = prepare_sentence summary[:total_count], summary[:correct_count]
     summary
+  end
+  
+  def prepare_sentence(total, correct)
+    percent = (correct * 100) / total
+    case percent
+    when 90..100
+      "Ausgezeichnet!"
+    when 80..89
+      "Sehr gut!"
+    when 70..79
+      "Gut!"  
+    when 50..69
+      "Befriedigend!"
+    when 0..49
+      "Leider ungenügend. Nochmal probieren!"
+    end
   end
 end
