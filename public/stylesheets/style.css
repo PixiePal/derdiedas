@@ -95,7 +95,6 @@ a:focus {
   overflow: hidden;
   text-align: center;
   position: relative;
-  border: 5px solid #e0e0e0;
   width: 500px;
   margin-left: 220px;
 }
@@ -106,11 +105,14 @@ a:focus {
 }
 
 #quiz_wrapper {
-	width: 100%;
+	margin-left: 15%;
+	margin-right: 0%;
+	border: 1px solid #a7a7a7;
+	height: 268px;
 }
 
 #quiz_wrapper h1 {
-  padding: 0.5em 0em 0.5em 0em;
+  padding: 20% 0 0.5em 0;
 }
 
 #der_die_das {
