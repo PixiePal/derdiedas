@@ -3,13 +3,6 @@ unless @wrong_button_for.nil?
   page["#{@wrong_button_for}_button"].add_class_name :wrong
 end
 
-unless @solved_word.nil?
-  page.insert_html( :bottom, 
-                    "wrong_#{@solved_word.article}", 
-                    render(:partial => 'word', :object => @solved_word))
-end
-
-
 unless @good_button_for.nil?
   %w{der die das}.each do |article|
     page["#{article}_button"].replace_html "<a onclick=\"return false\" href=\"#\"><span>#{article}</span></a>"

@@ -26,24 +26,25 @@
             <%= link_to 'Blog', :controller => "info", :action => "blog" %>
             <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
         </div>
-		<div id="left_column">
-        	<div id="logo">
+		<div id="container">
+			<div id="left_column">
+        		<div id="logo">
+        		</div>
+			</div>
+        	<div id="content">
+            	<% unless flash[:error].blank? %>
+            	<div id="notification">
+                	<%= flash[:error] %>
+            	</div>
+            	<% end %>
+            	<% unless flash[:notice].blank? %>
+            	<div id="notification">
+                	<%= flash[:notice] %>
+            	</div>
+            	<% end %>
+            	<%= yield %>
         	</div>
 		</div>
-        <div id="content">
-            <% unless flash[:error].blank? %>
-            <div id="notification">
-                <%= flash[:error] %>
-            </div>
-            <% end %>
-            <% unless flash[:notice].blank? %>
-            <div id="notification">
-                <%= flash[:notice] %>
-            </div>
-            <% end %>
-						<div id="content">
-            <%= yield %>
-        </div>
         <div id="footer">
             Copyright &copy; 2009 derdiedas-perfekt.com
         </div>
