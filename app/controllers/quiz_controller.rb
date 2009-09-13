@@ -37,7 +37,7 @@ private
     summary = {}
     summary[:correct_count] = session[:quiz_counter] - session[:mistakes].size
     summary[:total_count] = session[:quiz_counter]
-    summary[:mistakes] = session[:mistakes].collect {|word_id| Word.find_by_id word_id}
+    summary[:mistakes] = Word.find_all_by_id session[:mistakes]
     summary
   end
 end
