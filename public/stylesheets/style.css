@@ -1,5 +1,8 @@
-body {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 * {
@@ -7,19 +10,38 @@ body {
   padding: 0px;
 }
 
-div#preloaded-images {
+#top {
   position: absolute;
-  overflow: hidden;
-  left: -9999px;
-  top: -9999px;
-  height: 1px;
-  width: 1px;
+}
+
+* html #container {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+  margin-bottom: -36px;
+}
+
+#footer_spacer {
+  height: 36px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 60%;
+  width: 100%;
+  clear: both;
+  padding: 10px;
+  background-color: #fab30e;
+  border-top: 1px solid black;
+  height: 35px;
 }
 
 #header {
   text-align: right;
   font-size: 80%;
-  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 #header a, #header a:active {
@@ -44,21 +66,11 @@ a:focus {
   outline-style: none;
 }
 
-#footer {
-  text-align: center;
-  font-size: 60%;
-  width: 100%;
-  clear: both;
-  margin-top: 100px;
-  padding: 10px;
-  background-color: #fab30e;
-}
-
 #left_column {
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 210px;
-	height: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 210px;
+  height: 90%;
 }
 
 #logo {
@@ -96,7 +108,7 @@ a:focus {
 #der_die_das {
   list-style: none;
   position: relative;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 #der_die_das ul {
@@ -235,7 +247,7 @@ a:focus {
 }
 
 #feedback, #feedback1, #feedback2, #feedback3, #about, #about1, #about2, #about3, #about4, #about5, #about6, #about7, #about8, #text1 {
-  margin: 5% 0 0 10%;
+  padding: 5% 0 0 10%;
   width: 60%;
 }
 
@@ -248,9 +260,10 @@ a:focus {
 }
 
 #feedback_form {
-  margin: 5% 0 0 10%;
+  margin-left: 10%;
   width: 60%;
   padding-bottom: 10px;
+  padding-top: 5%;
 }
 
 #feedback_listing {
@@ -272,4 +285,13 @@ a:focus {
   text-decoration: none;
   background-color: #224893;
   color: #fff;
+}
+
+div#preloaded-images {
+  position: absolute;
+  overflow: hidden;
+  left: -9999px;
+  top: -9999px;
+  height: 1px;
+  width: 1px;
 }
