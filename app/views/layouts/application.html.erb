@@ -14,19 +14,19 @@
 	<div id="top_wrapper">
 		<div id="header">
 			<% if @current_user %>
-			Logged in as:
-			<%= @current_user.login %>
-			<em><%= link_to "(Logout)", session_path, :method => :delete %></em>
-			<% else %>
-			<em>Welcome! Login or Register.</em>
-			<%= link_to 'Login', new_session_path %>
-			<% end %>
+        Logged in as:
+        <%= @current_user.login %>
+        <em><%= link_to "(Logout)", session_path, :method => :delete %></em>
+      <% else %>
+        <%= link_to 'Login', new_session_path %>
+      <% end %>
+      <%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
+      <%= link_to 'What is this?', :controller => "info", :action => "service" %>
+      <%= link_to 'About', :controller => "info", :action => "about" %>
+      <%= link_to 'Blog', :controller => "info", :action => "blog" %>
+      <%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
 			<%= link_to 'Register', new_user_path %>
-			<%= link_to 'Home', :controller =>"quiz", :action=>"index" %>
-			<%= link_to 'About', :controller => "info", :action => "about" %>
-			<%= link_to 'Blog', :controller => "info", :action => "blog" %>
-			<%= link_to 'Contact', :controller => "feedbacks", :action => "new" %>
-			<span></span>
+      <span></span>
 		</div>
 		<div id="middle_wrapper">
 			<div id="left_column">
