@@ -268,10 +268,11 @@ tr.table_header {
 #feedback,
 #about {
   padding: 5% 0 0 10%;
-  width: 80%;
+  width: 90%;
   text-align: left;
 }
 
+#feedback p,
 #about p {
 	font-size: 0.9em;
 }
@@ -279,13 +280,20 @@ tr.table_header {
 .title {
   color: #224EA7;
   border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 20px;
 }
 
 .subtitle,
 .subtitle a {
-	padding-top: 20px;
   color: #224EA7;
+  padding-top: 20px;
 }
+
+.nopadding,
+.nopadding a {
+  padding-top: 0px;
+}
+
 
 #feedback_form {
   margin-left: 10%;
