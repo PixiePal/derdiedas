@@ -272,12 +272,19 @@ tr.table_header {
   text-align: left;
 }
 
-.title {
-  color: #224EA7;
+#about p {
+	font-size: 0.9em;
 }
 
-.subtitle {
-  color: #224893;
+.title {
+  color: #224EA7;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.subtitle,
+.subtitle a {
+	padding-top: 20px;
+  color: #224EA7;
 }
 
 #feedback_form {
