@@ -29,7 +29,8 @@ body {
 
 #footer {
   width: 100%;
-  background-color: #fab30e;
+  background-image: url(../images/footer.png);
+  background-repeat: repeat-x;
 }
 
 #footer p {
@@ -41,8 +42,9 @@ body {
 #header {
   text-align: right;
   font-size: 0.8em;
-  background-color: #fab30e;
-  border-bottom: 1px solid black;
+  background-image: url(../images/header.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
 	width: 100%;
   height: 2em;
   padding-top: 1em;
