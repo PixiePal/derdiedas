@@ -24,7 +24,7 @@ unless @good_button_for.nil?
       page[:der_die_das].reload
       page[:main_word].reload
     else
-      page["content"].replace_html render(:partial => 'summary', :object => @summary)
+      page["quiz_wrapper"].replace_html render(:partial => 'summary', :object => @summary)
     end
   end
 end

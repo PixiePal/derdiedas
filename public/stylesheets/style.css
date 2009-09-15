@@ -113,7 +113,7 @@ a:focus {
 	height: 268px;
 }
 
-#quiz_wrapper h1 {
+#main_word {
   padding: 20% 0 0.5em 0;
 }
 
@@ -201,6 +201,28 @@ a:focus {
 #das_button.good a {
   background-position: -132px -123px;
 }
+
+#summary {
+}
+
+#sentence {
+	padding-top: 10px;
+	padding-bottom: 5px;	
+}
+
+#back_to_game {
+	margin-top: 2em;
+}
+
+#back_to_game a {
+	color: #224893;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid black;
+	background-color: #d5ddb9;
+}
+
+
+
 
 #wrong_answers {
   border-color: #000;
