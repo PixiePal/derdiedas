@@ -1,10 +1,23 @@
 <div id="summary">
 	<h1 id="sentence"><%= summary[:sentence]%></h1>
 	<p><strong><%= summary[:correct_count]%></strong> von <strong><%= summary[:total_count]%></strong> Richtig.</p>
-	<% unless summary[:mistakes].empty? %>
-		<p>Zum Üben:
-			<%= render :partial => 'word', :collection => summary[:mistakes] %>
-		</p>
+	
+	<% unless summary[:correct_count] == summary[:total_count] %>
+	<div id="wrong_words">Wörter zum üben:
+		<table>
+			<tr class="table_header"><td>der</td><td>die</td><td>das</td></tr>
+			<tr>
+				<td>
+				  <%= render :partial => 'word', :collection => summary[:mistakes][:der] %>
+				</td>			
+				<td>
+				  <%= render :partial => 'word', :collection => summary[:mistakes][:die] %>
+				</td>
+			  <td>
+				  <%= render :partial => 'word', :collection => summary[:mistakes][:das] %>
+				</td>
+		</table>
+  </div>
 	<% end%>
 	
 	<p id="back_to_game"><%= link_to 'Continue', :controller =>"quiz", :action=>"index" %></p>

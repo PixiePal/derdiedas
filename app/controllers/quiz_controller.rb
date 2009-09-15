@@ -15,7 +15,7 @@ class QuizController < ApplicationController
       @solved_word = @main_word
       @main_word = get_new_word
       session[:quiz_counter].nil? ? session[:quiz_counter] = 1 : session[:quiz_counter] += 1
-      if session[:quiz_counter] == 3
+      if session[:quiz_counter] == 10
         @display_summary = true
         @summary = prepare_quiz_summary
       end
@@ -37,7 +37,9 @@ private
     summary = {}
     summary[:correct_count] = session[:quiz_counter] - session[:mistakes].size
     summary[:total_count] = session[:quiz_counter]
-    summary[:mistakes] = Word.find_all_by_id session[:mistakes]
+    summary[:mistakes] = {:der => [], :das => [], :die => [],}
+    mistakes = Word.find_all_by_id session[:mistakes]
+    mistakes.each {|word| summary[:mistakes][word.article.to_sym] << word}
     summary[:sentence] = prepare_sentence summary[:total_count], summary[:correct_count]
     summary
   end
@@ -46,15 +48,15 @@ private
     percent = (correct * 100) / total
     case percent
     when 90..100
-      "Ausgezeichnet!"
+      "Ausgezeichnet"
     when 80..89
-      "Sehr gut!"
+      "Sehr gut"
     when 70..79
-      "Gut!"  
+      "Gut"  
     when 50..69
-      "Befriedigend!"
+      "Mittelmäßig"
     when 0..49
-      "Leider ungenügend. Nochmal probieren!"
+      "Zu verbessern"
     end
   end
 end

@@ -109,8 +109,8 @@ a:focus {
 #quiz_wrapper {
 	margin-left: 15%;
 	margin-right: 0%;
-	border: 1px solid #a7a7a7;
-	height: 268px;
+	border: none;
+	min-height: 268px;
 }
 
 #main_word {
@@ -211,7 +211,8 @@ a:focus {
 }
 
 #back_to_game {
-	margin-top: 2em;
+	margin: 2em 0 2em 0;
+	font-size: 0.8em;
 }
 
 #back_to_game a {
@@ -221,41 +222,25 @@ a:focus {
 	background-color: #d5ddb9;
 }
 
-
-
-
-#wrong_answers {
-  border-color: #000;
-  border-top-style: dotted;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  margin: 0% 5% 0% 5%;
+#wrong_words {
+	margin-top: 1em;
 }
 
-#wrong_der {
-  position: relative;
-  float: left;
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 20%;
+table {
+	border: 1px solid #e0e0e0;
+	width: 80%;
+	margin: 1% 10% 1% 10%;
 }
 
-#wrong_die {
-  float: left;
-  position: relative;
-  overflow: hidden;
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 20%;
+tr, td {
+	border: 1px solid #e0e0e0;
+	width: 33%;
 }
 
-#wrong_das {
-  float: left;
-  overflow: hidden;
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 20%;
+tr.table_header {
+	background-color: #fab30e;
+	font-variant: small-caps;
+	font-weight: bold;
 }
 
 #wrong_der h4, #wrong_die h4, #wrong_das h4 {
@@ -264,7 +249,7 @@ a:focus {
 }
 
 .one_word {
-  padding: 0%;
+  padding: 0;
 }
 
 #link_to_dict {
