@@ -109,7 +109,7 @@ a:focus {
 #quiz_wrapper {
 	margin-left: 15%;
 	margin-right: 0%;
-	border: none;
+	border-left: 1px dashed #a7a7a7;
 	min-height: 268px;
 }
 
