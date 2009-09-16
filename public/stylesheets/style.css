@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif, arial, helvetica;
 }
 
 * {
@@ -21,10 +21,13 @@ body {
 	width: 800px;
   margin: 0 auto 0 auto;
   padding-top: 20px;
+  font-size: 0.8em;
+  line-height: 1.5em;
 }
 
 #footer_spacer, #footer {
   height: 2em;
+  clear: both;
 }
 
 #footer {
@@ -50,15 +53,12 @@ body {
   padding-top: 1em;
 }
 
-#header span {
-  padding: 1em; 
-}
-
 #header a, #header a:active {
   outline: none;
   color: #224893;
   text-decoration: none;
   margin-left: 10px;
+  padding: 3px 3px 1px 3px;
 }
 
 #header a:hover {
@@ -66,13 +66,14 @@ body {
   color: #fff;
 }
 
-a, a:active {
+#quiz_wrapper a,
+#quiz_wrapper a:active {
   outline: none;
   color: #000;
   text-decoration: none;
 }
 
-a:focus {
+#quiz_wrapper a:focus {
   outline-style: none;
 }
 
@@ -99,11 +100,6 @@ a:focus {
   position: relative;
   width: 500px;
   margin-left: 220px;
-}
-
-#about {
-  text-align: left;
-  font-size: 95%;
 }
 
 #quiz_wrapper {
@@ -212,7 +208,6 @@ a:focus {
 
 #back_to_game {
 	margin: 2em 0 2em 0;
-	font-size: 0.8em;
 }
 
 #back_to_game a {
@@ -272,11 +267,6 @@ tr.table_header {
   text-align: left;
 }
 
-#feedback p,
-#about p {
-	font-size: 0.9em;
-}
-
 .title {
   color: #224EA7;
   border-bottom: 1px solid #e8e8e8;
@@ -296,10 +286,16 @@ tr.table_header {
 
 
 #feedback_form {
-  margin-left: 10%;
-  width: 60%;
   padding-bottom: 10px;
   padding-top: 5%;
+}
+
+#feedback_form p {
+	padding-bottom: 1em;
+}
+
+#feedback_form p label {
+	display: block;
 }
 
 #feedback_listing {
