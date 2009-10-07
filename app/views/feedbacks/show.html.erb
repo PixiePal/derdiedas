@@ -1,20 +1,15 @@
 <% title "Received feedback" %>
 <%= error_messages_for 'story' %>
-<div id="content_fb">
-    <div id="feedback">
-        <h2 class="title">Feedback listing</h2>
-        <% @feedbacks.each do |feedback| %>
-        <div id="feedback_listing">
-            <p>
-                Email: <a href="mailto:<%= feedback.email %>"><%= feedback.email %></a>
-                Name: <%= feedback.name %>
-                <br/>
-                submitted at <%= feedback.created_at %>
-            </p>
-            <p>
-                Message: <%= feedback.message %>
-            </p>
-        </div>
-        <% end %>
-    </div>
+<div class="main_text">
+  <h2 class="title">Feedback listing</h2>
+  <% @feedbacks.each do |feedback| %>
+	<div class="one_feedback">
+  	<p class="subtitle">
+			<%= feedback.name %>
+			(<a href="mailto:<%= feedback.email %>"><%= feedback.email %></a>)
+  	</p>
+		<p id="feedback_timestamp"><%= feedback.created_at %></p>
+  	<p><%= feedback.message %></p>
+  </div>
+  <% end %> 
 </div>

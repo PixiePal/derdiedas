@@ -1,16 +1,12 @@
-<% title "DerDieDas - Feedback" %>
+<% title "Feedback" %>
 
-<div id="feedback">
+<div class="main_text">
 	<h2 class="title">Feedback</h2>
-  <p>Contact us with any questions, suggestions, comments or feedback. 
-	Feel free to drop us a note explaining what type of support you need. 
-	We're happy to help! 
+  <p>Comments, suggestions, questions are very welcome! 
+	Feel free to drop us a note! Email us at 
+	<a href="mailto:support@derdiedas-perfekt.com">support@derdiedas-perfekt.com</a>
   </p>
-  <p>Send your questions, suggestions at: 
-		<a href="mailto:support@derdiedas-perfekt.com">support@derdiedas-perfekt.com</a>
-  </p>
-  <p>
-    Or just fill out the below form:
+  <p>Or just fill out the form below:
   </p>
   <div id="feedback_form">
     <% form_for @feedback do |f| %>
@@ -25,7 +21,7 @@
       </p>
 			<p>
 				<%= f.label :message, "Message:" %>
-      	<%= f.text_area :message %>
+      	<%= f.text_area :message, :rows => 7 %>
       </p>
 			<p><%= f.submit "Submit" %></p>
     <% end %>

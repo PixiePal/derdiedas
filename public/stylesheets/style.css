@@ -27,7 +27,6 @@ body {
 
 #footer_spacer, #footer {
   height: 2em;
-  clear: both;
 }
 
 #footer {
@@ -260,67 +259,56 @@ tr.table_header {
   visibility: hidden;
 }
 
-#feedback,
-#about {
+.main_text {
   padding: 5% 0 0 10%;
   width: 90%;
   text-align: left;
 }
 
+.main_text p {
+	padding-top: 1.5em;
+}
+
 .title {
   color: #224EA7;
   border-bottom: 1px solid #e8e8e8;
-  margin-bottom: 20px;
 }
 
 .subtitle,
 .subtitle a {
   color: #224EA7;
-  padding-top: 20px;
+  padding-top: 1.5em;
 }
 
-.nopadding,
-.nopadding a {
-  padding-top: 0px;
-}
-
-#feedback a {
+.main_text a, .subtitle a {
 	text-decoration: none;
 	color: #224893;
 }
 
-#feedback_form {
-  padding-bottom: 10px;
-  padding-top: 5%;
-}
-
 #feedback_form p {
-	padding-bottom: 1em;
+	padding-bottom: 0;
 }
 
 #feedback_form p label {
 	display: block;
 }
 
-#feedback_listing {
-  float: left;
-  padding: 5px 0 15px 0;
-  border-bottom: groove;
+.one_feedback {
+	padding: 2em 0 0 0;
+	border-bottom: 1px solid #9b9b9b;
+}
+
+.one_feedback p {
+	padding: 0;
+}
+
+#feedback_timestamp {
+	font-size: 80%;
+	color: #9b9b9b;
 }
 
 .fieldWithErrors {
   border: 5px solid #f66;
-}
-
-#feedback_listing a, #feedback2 a, #about_main a {
-  text-decoration: none;
-  color: #224893;
-}
-
-#feedback2 a:hover, #about_main a:hover {
-  text-decoration: none;
-  background-color: #224893;
-  color: #fff;
 }
 
 div#preloaded-images {
