@@ -47,9 +47,14 @@ Rails::Initializer.run do |config|
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
+  session_config_file = File.expand_path("#{RAILS_ROOT}/config/session.secret")
+  unless File.exists?(session_config_file)
+    fail "No config/session.secret found. Please create one with 'rake --silent secret > config/sess.secret'"
+  end
+  session_secret  = File.open(session_config_file).read.strip
   config.action_controller.session = {
-    :session_key => '_derdiedas_session',
-    :secret      => 'b5d727d59bd049cfce852d2cca7dc8eaa56a427534e420b35dc6ae160d204d6e9a7b73c96f6e7b19911ff580eaf41b2e078db1aeebc418e6ad889d5b31489060'
+    :session_key => '_ddd_session',
+    :secret      => session_secret
   }
 
   # Use the database for sessions instead of the cookie-based default,
