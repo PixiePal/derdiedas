@@ -31,6 +31,6 @@ protected
   end
   def set_charset  
     str_type = request.xhr? ? 'javascript' : 'html'  
-    headers['Content-Type'] = "text/#{str_type}; charset=ISO-8859-1"
+    headers['Content-Type'] = "text/#{str_type}; charset=UTF-8"
   end
 end
