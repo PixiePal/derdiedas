@@ -285,6 +285,18 @@ tr.table_header {
 	color: #224893;
 }
 
+.main_text ul {
+	padding: 2em;
+}
+
+.main_text b {
+	display: block;
+	text-align: center;
+	padding: 2em;
+	color: #224EA7;
+	font-size: 1.1em;
+}
+
 #feedback_form p {
 	padding-bottom: 0;
 }
