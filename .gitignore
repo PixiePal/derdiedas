@@ -2,6 +2,7 @@
 log/*.log
 tmp/**/*
 config/database.yml
+config/session.secret
 db/*.sqlite3
 init_data.sql
 profiling/*.*
