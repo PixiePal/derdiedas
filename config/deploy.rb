@@ -1,8 +1,8 @@
 set :application, "derdiedas"
 set :scm, :git
 set :repository, "git://github.com/PixiePal/derdiedas.git"
-set :branch, "origin/master"
-set :deploy_to, "/home/fruitfr/derdiedas/"
+set :branch, "master"
+set :deploy_to, "/home/fruitcr/derdiedas/"
 set :deploy_via, :remote_cache
 set :user, "fruitcr"
 set :use_sudo, false
@@ -11,12 +11,11 @@ role :app, "74.63.10.51"
 role :web, "74.63.10.51"
 role :db,  "74.63.10.51", :primary => true
 
-
 task :after_finalize_update, :except => { :no_release => true } do
- configs_for = %w{database}
- commands_todo = configs_for.map { |cfg| "cp #{current_path}/config/#{cfg}.yml #{release_path}/config/#{cfg}.yml"}
- commands_todo << "cp #{current_path}/config/session.secret #{release_path}/config/session.secret"
- run commands_todo.join(" && ")
+  configs_for = %w{database}
+  commands_todo = configs_for.map { |cfg| "cp #{current_path}/config/#{cfg}.yml #{release_path}/config/#{cfg}.yml"}
+  commands_todo << "cp #{current_path}/config/session.secret #{release_path}/config/session.secret"
+  run commands_todo.join(" && ")
 end
 
 namespace :deploy do
