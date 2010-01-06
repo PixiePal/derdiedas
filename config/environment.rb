@@ -49,7 +49,7 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   session_config_file = File.expand_path("#{RAILS_ROOT}/config/session.secret")
   unless File.exists?(session_config_file)
-    fail "No config/session.secret found. Please create one with 'rake --silent secret > config/sess.secret'"
+    fail "No config/session.secret found. Please create one with 'rake --silent secret > config/session.secret'"
   end
   session_secret  = File.open(session_config_file).read.strip
   config.action_controller.session = {
