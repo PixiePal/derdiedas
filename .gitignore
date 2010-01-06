@@ -7,3 +7,4 @@ db/*.sqlite3
 init_data.sql
 profiling/*.*
 app/**/**/.tmp*
+script/word_acquisition/*
