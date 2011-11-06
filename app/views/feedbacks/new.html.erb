@@ -6,24 +6,4 @@
 	Feel free to drop us a note! Email us at 
 	<a href="mailto:support@derdiedas-perfekt.com">support@derdiedas-perfekt.com</a>
   </p>
-  <p>Or just fill out the form below:
-  </p>
-  <div id="feedback_form">
-    <% form_for @feedback do |f| %>
-      <p><%= f.error_messages %></p>
-      <p>
-				<%= f.label :name, "Name:" %>
-      	<%= f.text_field :name %>
-      </p>
-			<p>
-				<%= f.label :email, "Email:" %>
-      	<%= f.text_field :email %>
-      </p>
-			<p>
-				<%= f.label :message, "Message:" %>
-      	<%= f.text_area :message, :rows => 7 %>
-      </p>
-			<p><%= f.submit "Submit" %></p>
-    <% end %>
-  </div>
 </div>
