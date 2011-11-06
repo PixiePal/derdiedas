@@ -7,9 +7,9 @@ set :deploy_via, :remote_cache
 set :user, "fruitcr"
 set :use_sudo, false
 
-role :app, "74.63.10.51"
-role :web, "74.63.10.51"
-role :db,  "74.63.10.51", :primary => true
+role :app, "66.84.0.142"
+role :web, "66.84.0.142"
+role :db,  "66.84.0.142", :primary => true
 
 task :after_finalize_update, :except => { :no_release => true } do
   configs_for = %w{database}
